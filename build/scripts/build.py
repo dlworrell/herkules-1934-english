@@ -25,6 +25,7 @@ html_lines = [
     '<head>',
     '<meta charset="utf-8">',
     '<title>HERKULES 1934 English Technical Edition</title>',
+    '<link rel="stylesheet" href="book.css">',
     '</head>',
     '<body>',
 ]
@@ -43,6 +44,10 @@ for line in book_text.splitlines():
 
 html_lines.extend(['</body>', '</html>'])
 book_html.write_text('\n'.join(html_lines), encoding='utf-8')
+
+css = root / 'assets' / 'styles' / 'book.css'
+if css.exists():
+    (out / 'book.css').write_text(css.read_text(encoding='utf-8'), encoding='utf-8')
 
 print(f'wrote {book_md}')
 print(f'wrote {book_html}')
