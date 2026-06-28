@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
       - name: Check sources
         run: make check
-      - name: Build book
-        run: make build
-      - name: Generate indexes
-        run: make indexes
+      - name: Build all outputs
+        run: make all
       - name: Upload output
         uses: actions/upload-artifact@v4
         with:
