@@ -1,0 +1,5 @@
+source_unit,english_name,conversion,target_unit
+kpm,kilopond meter,9.807,N m
+kgm,kilogram meter,9.807,N m
+bar,bar,100,kPa
+kg/cm2,kilogram per square centimeter,98.07,kPa
