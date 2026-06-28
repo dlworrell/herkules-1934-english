@@ -2,10 +2,22 @@ name: Build
 
 on:
   push:
+  pull_request:
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo build
+      - uses: actions/checkout@v4
+      - name: Check sources
+        run: make check
+      - name: Build book
+        run: make build
+      - name: Generate indexes
+        run: make indexes
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: herkules-output
+          path: output/
