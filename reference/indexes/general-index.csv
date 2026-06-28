@@ -1,0 +1,7 @@
+term,section,notes
+HERKULES 1934,1,Project and engine name
+Inline sixteen,2.1,Engine configuration
+Volvo B20,5.1,Source engine family
+Cylinder head,5.3,Valve and head service material
+Torque,reference,Collected in torque-values.csv
+Threads,reference,Collected in threads.csv
