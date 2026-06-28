@@ -1,0 +1,7 @@
+item,value,unit,notes,source_section
+Engine configuration,inline 16,cylinders,HERKULES 1934 specification,2.1
+Displacement,8.1,L,Approximate manual value,2.1
+Displacement,494,cu in,Approximate manual value,2.1
+Carburetors,4,count,Zenith Stromberg,2.1
+Distributors,2,count,,2.1
+Length pressure plate to front pulley,2464,mm,,2.1
