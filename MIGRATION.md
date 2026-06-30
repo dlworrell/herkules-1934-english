@@ -21,7 +21,7 @@ This document tracks the migration from the original HERKULES repository layout 
 | `reference/concordance/` | `reference/concordance/` | Keep | Parts and cross-reference tables remain active. |
 | `build/scripts/` | `archive/pre-edt-work/build-scripts/` or EDT wrappers | Review | Old scripts may contain useful logic, but should not remain the long-term build engine if EDT replaces them. |
 | `output/` | `output/` | Regenerate | Generated outputs are not canonical unless saved as release artifacts. |
-| source manual PDF | `source/original/` | Move | The scanned/source manual belongs in the original source directory. |
+| source manual PDF | `source/original/herkules-manual.pdf` | Move | The scanned/source manual belongs in the original source directory. |
 | OCR artifacts | `reports/` or `source/original/ocr/` | Review | Keep reviewed OCR checkpoints; regenerate transient OCR. |
 | translation memory | `reference/tm/` | Move | Project-specific TMX and translation unit files belong here. |
 | old exploratory notes | `archive/pre-edt-work/notes/` | Archive | Preserve for provenance. |
@@ -39,4 +39,4 @@ This document tracks the migration from the original HERKULES repository layout 
 
 ## Current step
 
-Step 6 complete: EDT dependency metadata and conservative build wrapper targets have been added. No existing content has been moved yet.
+Step 7 partial: the EDT pilot manifest and `make edt-pilot` runner are wired. The runner expects the source manual at `source/original/herkules-manual.pdf` and writes pilot status to `reports/pilot/pilot-status.json`. No existing content has been moved yet.
