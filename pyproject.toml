@@ -1,0 +1,14 @@
+[project]
+name = "herkules-1934-english"
+version = "0.1.0"
+description = "HERKULES 1934 English Technical Edition project repository"
+requires-python = ">=3.11"
+dependencies = [
+    "engineering-docs-toolkit @ git+https://github.com/dlworrell/engineering-docs-toolkit.git"
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.herkules]
+project_manifest = "edt/project.yml"

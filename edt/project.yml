@@ -1,0 +1,48 @@
+project:
+  id: herkules-1934-english
+  title: HERKULES 1934 English Technical Edition
+  source_language: sv
+  target_language: en
+  engine: engineering-docs-toolkit
+
+source:
+  primary_pdf: source/original/herkules-manual.pdf
+  pilot_pages:
+    start: 1
+    end: 3
+
+ocr:
+  enabled: true
+  engine: tesseract
+  language: swe
+  cache: reports/ocr/cache
+
+translation:
+  source_language: sv
+  target_language: en
+  memory: reference/tm/herkules.sv-en.tmx
+  glossary: reference/glossary
+
+outputs:
+  edom: output/pilot/edom
+  html: output/pilot/html
+  markdown: output/pilot/markdown
+  reports: reports/pilot
+
+paths:
+  original: source/original
+  swedish: source/swedish
+  english: source/english
+  glossary: reference/glossary
+  concordance: reference/concordance
+  indexes: reference/indexes
+  translation_memory: reference/tm
+  reports: reports
+  output: output
+  archive: archive/pre-edt-work
+
+policy:
+  preserve_pre_edt_work: true
+  canonical_source_tree: true
+  generated_output_is_rebuildable: true
+  pilot_before_full_manual: true
