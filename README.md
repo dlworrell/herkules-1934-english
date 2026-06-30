@@ -24,6 +24,7 @@ HERKULES should contain HERKULES-specific assets, editorial history, source note
 - `build/scripts/` legacy build tooling until replaced by EDT wrappers
 - `output/` generated files, ignored unless intentionally committed
 - `edt/project.yml` EDT project manifest
+- `pyproject.toml` Python project metadata and EDT dependency declaration
 
 ## Archive policy
 
@@ -40,10 +41,23 @@ Reusable material can later be promoted into the active folders:
 
 ## Build
 
-Run:
+Legacy build targets remain available:
 
 ```sh
 make build
+make check
+make indexes
+make glossary
+make pandoc
+```
+
+EDT-facing targets have been added conservatively:
+
+```sh
+make edt-check
+make edt-pilot
+make edt-report
+make edt-html
 ```
 
 The existing build currently creates a placeholder output. The next step is replacing the placeholder with an EDT-backed pipeline that reads `edt/project.yml` and produces structured reports and publication outputs.
