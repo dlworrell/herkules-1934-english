@@ -1,0 +1,25 @@
+project:
+  id: herkules-1934-english
+  title: HERKULES 1934 English Technical Edition
+  engine: engineering-docs-toolkit
+
+paths:
+  archive: archive/pre-edt-work
+  swedish: source/swedish
+  english: source/english
+  glossary: reference/glossary
+  indexes: reference/indexes
+  concordance: reference/concordance
+  translation_memory: reference/tm
+  reports: reports
+  output: output
+
+pipeline:
+  ocr: true
+  semantic_analysis: true
+  translation_memory: true
+  accessibility_reports: true
+  publishing_outputs:
+    - html
+    - epub
+    - docx
