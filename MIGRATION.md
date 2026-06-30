@@ -31,11 +31,12 @@ This document tracks the migration from the original HERKULES repository layout 
 1. Preserve pre-EDT archive area.
 2. Establish canonical EDT project layout.
 3. Inventory current content.
-4. Migrate useful content one logical area per commit.
+4. Document EDT-facing layout and deployment plan.
 5. Add EDT dependency and build wrappers.
-6. Run the first EDT pilot on a small page range.
-7. Promote validated outputs into the normal workflow.
+6. Migrate useful content one logical area per commit.
+7. Run the first EDT pilot on a small page range.
+8. Promote validated outputs into the normal workflow.
 
 ## Current step
 
-Step 3 complete: migration inventory created. No existing content has been moved yet.
+Step 6 complete: EDT dependency metadata and conservative build wrapper targets have been added. No existing content has been moved yet.
