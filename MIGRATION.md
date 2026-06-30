@@ -39,4 +39,8 @@ This document tracks the migration from the original HERKULES repository layout 
 
 ## Current step
 
-Step 7 partial: the EDT pilot manifest and `make edt-pilot` runner are wired. The runner expects the source manual at `source/original/herkules-manual.pdf` and writes pilot status to `reports/pilot/pilot-status.json`. No existing content has been moved yet.
+Step 7 partial: the EDT pilot manifest and `make edt-pilot` runner are wired. The runner expects the source manual at `source/original/herkules-manual.pdf` and writes pilot status to `reports/pilot/pilot-status.json`.
+
+The next required action is to place or commit the source PDF at that path, or adjust `edt/project.yml` if the final canonical filename should be different.
+
+No existing content has been moved yet.
