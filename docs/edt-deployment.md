@@ -4,7 +4,7 @@ This repository consumes Engineering Docs Toolkit as the reusable document engin
 
 ## Current migration step
 
-Step 4: document the EDT-facing repository layout before moving content.
+Step 6: add EDT dependency metadata and safe build wrapper targets.
 
 No existing content should be moved until the inventory in `MIGRATION.md` has been reviewed.
 
@@ -34,15 +34,28 @@ Move old material into the archive first when it is obsolete, exploratory, or su
 
 ## EDT dependency strategy
 
-The HERKULES project should depend on EDT rather than copying EDT source into this repository.
+The HERKULES project depends on EDT rather than copying EDT source into this repository.
 
-Expected future dependency form:
+Dependency metadata is declared in `pyproject.toml`:
 
 ```toml
 dependencies = [
   "engineering-docs-toolkit @ git+https://github.com/dlworrell/engineering-docs-toolkit.git"
 ]
 ```
+
+## Build wrapper strategy
+
+The legacy HERKULES build targets remain in place. EDT-specific targets are added beside them:
+
+```sh
+make edt-check
+make edt-pilot
+make edt-report
+make edt-html
+```
+
+The placeholder EDT targets are intentionally conservative. They establish the interface without pretending the final EDT command surface is complete.
 
 ## First EDT pilot
 
