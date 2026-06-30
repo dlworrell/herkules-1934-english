@@ -1,0 +1,23 @@
+project:
+  id: herkules-1934-english
+  title: HERKULES 1934 English Technical Edition
+  source_language: sv
+  target_language: en
+  engine: engineering-docs-toolkit
+
+paths:
+  original: source/original
+  swedish: source/swedish
+  english: source/english
+  glossary: reference/glossary
+  concordance: reference/concordance
+  indexes: reference/indexes
+  translation_memory: reference/tm
+  reports: reports
+  output: output
+  archive: archive/pre-edt-work
+
+policy:
+  preserve_pre_edt_work: true
+  canonical_source_tree: true
+  generated_output_is_rebuildable: true
