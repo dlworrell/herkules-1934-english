@@ -6,7 +6,7 @@ project:
   engine: engineering-docs-toolkit
 
 source:
-  primary_pdf: source/original/herkules-manual.pdf
+  primary_pdf: source/original/Manual-HERKULES-2015-10-16-1.pdf
   pilot_pages:
     start: 1
     end: 3
@@ -45,4 +45,5 @@ policy:
   preserve_pre_edt_work: true
   canonical_source_tree: true
   generated_output_is_rebuildable: true
+  preserve_original_filenames: true
   pilot_before_full_manual: true
