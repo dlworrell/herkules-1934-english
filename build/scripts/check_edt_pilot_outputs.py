@@ -29,7 +29,16 @@ HEADER_HINTS = ("HERKULES", "Söderström", "Rak 16")
 EMBEDDED_PAGE_FURNITURE = (
     "Söderström - HERKULES 1934",
     "Soderstrom - HERKULES 1934",
-    "Rak 16-Cylinder",
+)
+OCR_PAGE_FURNITURE_PREFIXES = (
+    "uv ",
+    "huvet ",
+    "s ",
+    "po ",
+    "pos ",
+    "est ",
+    "» ",
+    "ee ",
 )
 
 
@@ -278,7 +287,9 @@ def _write_ocr_quality_report(results: list[dict[str, Any]]) -> list[dict[str, A
 def _is_embedded_page_furniture(stripped: str) -> bool:
     if "Söderström”s Motor Werkstad" in stripped:
         return False
-    return any(furniture in stripped for furniture in EMBEDDED_PAGE_FURNITURE)
+    has_furniture = any(furniture in stripped for furniture in EMBEDDED_PAGE_FURNITURE)
+    has_ocr_prefix = stripped.startswith(OCR_PAGE_FURNITURE_PREFIXES)
+    return has_furniture and has_ocr_prefix
 
 
 def _clean_line(line: str, repeated_headers: dict[str, int]) -> tuple[str | None, str | None]:
