@@ -16,6 +16,8 @@ PILOT_REPORT_DIR = ROOT / "reports" / "pilot"
 PILOT_OUTPUT_DIR = ROOT / "output" / "pilot"
 PILOT_STATUS = PILOT_REPORT_DIR / "pilot-status.json"
 SOURCE_QUEUE = PILOT_REPORT_DIR / "source-queue.json"
+OCR_ENGINE = "tesseract"
+OCR_LANGUAGE = "swe"
 
 
 def _relative(path: Path) -> str:
@@ -50,8 +52,8 @@ def _write_queue_manifest(source_pdf: Path, slug: str, base_config) -> Path:
         f"    start: {base_config.first_page}\n"
         f"    end: {base_config.last_page}\n"
         "ocr:\n"
-        f"  engine: {base_config.ocr_engine}\n"
-        f"  language: {base_config.ocr_language}\n"
+        f"  engine: {OCR_ENGINE}\n"
+        f"  language: {OCR_LANGUAGE}\n"
         "outputs:\n"
         f"  edom: output/pilot/{slug}/edom\n"
         f"  reports: reports/pilot/{slug}\n"
