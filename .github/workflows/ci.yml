@@ -46,13 +46,14 @@ jobs:
           path: |
             output/pilot
             reports/pilot
+            reports/ocr
 
       - name: Commit EDT pilot outputs
         if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/pilot reports/pilot
+          git add output/pilot reports/pilot reports/ocr
           if git diff --cached --quiet; then
             echo "No EDT pilot output changes to commit."
           else
