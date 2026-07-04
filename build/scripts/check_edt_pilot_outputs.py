@@ -10,6 +10,13 @@ ROOT = Path(__file__).resolve().parents[2]
 PILOT_REPORT_DIR = ROOT / "reports" / "pilot"
 PILOT_STATUS = PILOT_REPORT_DIR / "pilot-status.json"
 SOURCE_QUEUE = PILOT_REPORT_DIR / "source-queue.json"
+EXPECTED_STAGE_STATUSES = {
+    "image_results": {"extracted"},
+    "ocr_results": {"complete"},
+    "layout_results": {"complete"},
+    "semantic_results": {"complete"},
+    "edom_results": {"complete"},
+}
 
 
 def _relative(path: Path) -> str:
@@ -62,14 +69,14 @@ def _check_import_report(report: dict[str, Any], label: str) -> list[str]:
     else:
         issues.append(f"{label}: import report is missing canonical_document_edom summary")
 
-    for stage_name in ("image_results", "ocr_results", "layout_results", "semantic_results", "edom_results"):
+    for stage_name, expected_statuses in EXPECTED_STAGE_STATUSES.items():
         results = report.get(stage_name)
         if not isinstance(results, list) or not results:
             issues.append(f"{label}: import report has no {stage_name}")
             continue
         incomplete = []
         for result in results:
-            if isinstance(result, dict) and result.get("status") != "complete":
+            if isinstance(result, dict) and result.get("status") not in expected_statuses:
                 incomplete.append(result)
         if incomplete:
             issues.append(f"{label}: {stage_name} incomplete; first={incomplete[0]!r}")
