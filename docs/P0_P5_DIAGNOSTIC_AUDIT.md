@@ -20,7 +20,7 @@ Important current facts:
 
 - The book repo declares EDT as a dependency in `pyproject.toml`.
 - The project manifest is `edt/project.yml`.
-- The manifest points the pilot import at `source/original/herkules-manual.pdf`.
+- The manifest points the pilot import at `source/original/Manual-HERKULES-2015-10-16-1.pdf`.
 - The manifest defines generated pilot output roots under `output/pilot` and `reports/pilot`.
 - Legacy build scripts still read `source/english/*.md` and write top-level `output/book.*` artifacts.
 - The EDT pilot now writes canonical EDOM, Markdown, HTML, and status outputs under the book repo.
@@ -59,6 +59,14 @@ P0 is about preventing misleading green builds and misplaced artifacts.
 
    Generated files must not be written into `source/english`. Promotion from generated pilot material into reviewed English source should be a deliberate editorial action.
 
+5. **Original source filenames must be preserved**
+
+   The primary PDF path should use the source artifact filename exactly as received unless there is an explicit provenance-preserving copy or alias. The current configured source is:
+
+   ```text
+   source/original/Manual-HERKULES-2015-10-16-1.pdf
+   ```
+
 ### P0 remediation steps
 
 - Keep the project boundary document authoritative.
@@ -66,6 +74,7 @@ P0 is about preventing misleading green builds and misplaced artifacts.
 - Add diagnostics that verify expected generated pilot files exist after `make edt-pilot`.
 - Add a status report that tells users exactly where generated files were written.
 - Avoid writing generated files into `source/english`.
+- Preserve original source filenames in `source/original`.
 
 ## P1 — Pilot import and publication path
 
@@ -103,7 +112,7 @@ P2 is about ensuring source material can be trusted and traced.
    The manifest expects:
 
    ```text
-   source/original/herkules-manual.pdf
+   source/original/Manual-HERKULES-2015-10-16-1.pdf
    ```
 
 2. **Provenance policy exists conceptually but is not fully enforced**
