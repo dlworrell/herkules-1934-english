@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[2]
 PILOT_REPORT_DIR = ROOT / "reports" / "pilot"
 PILOT_STATUS = PILOT_REPORT_DIR / "pilot-status.json"
 SOURCE_QUEUE = PILOT_REPORT_DIR / "source-queue.json"
+OCR_REPORT_DIR = ROOT / "reports" / "ocr"
+OCR_REPORT_JSON = OCR_REPORT_DIR / "pilot-quality-report.json"
+OCR_REPORT_MD = OCR_REPORT_DIR / "pilot-quality-report.md"
 EXPECTED_STAGE_STATUSES = {
     "image_results": {"extracted"},
     "ocr_results": {"complete"},
@@ -17,6 +21,8 @@ EXPECTED_STAGE_STATUSES = {
     "semantic_results": {"complete"},
     "edom_results": {"complete"},
 }
+STRAY_LINES = {"uv", "lr", "huvet"}
+HEADER_HINTS = ("HERKULES", "Söderström", "Rak 16")
 
 
 def _relative(path: Path) -> str:
@@ -110,6 +116,156 @@ def _check_text_outputs(markdown: Path, html: Path, label: str) -> list[str]:
     return issues
 
 
+def _root_children(canonical: dict[str, Any]) -> list[dict[str, Any]]:
+    root = canonical.get("root")
+    if not isinstance(root, dict):
+        return []
+    children = root.get("children")
+    return [child for child in children if isinstance(child, dict)] if isinstance(children, list) else []
+
+
+def _node_page(node: dict[str, Any]) -> int | None:
+    regions = node.get("source_regions")
+    if not isinstance(regions, list) or not regions or not isinstance(regions[0], dict):
+        return None
+    page = regions[0].get("page")
+    return page if isinstance(page, int) else None
+
+
+def _text_lines(text: str) -> list[str]:
+    return [line.strip() for line in text.splitlines() if line.strip()]
+
+
+def _is_suspicious_line(line: str) -> bool:
+    stripped = line.strip()
+    lowered = stripped.lower()
+    if lowered in STRAY_LINES:
+        return True
+    if stripped.startswith(("e ", "ee ", ".", "«")):
+        return True
+    if ".." in stripped or "”s" in stripped:
+        return True
+    return False
+
+
+def _analyze_ocr_source(result: dict[str, Any]) -> dict[str, Any] | None:
+    canonical_path = ROOT / str(result.get("canonical_edom", ""))
+    report_path = ROOT / str(result.get("import_report", ""))
+    if not canonical_path.exists() or not report_path.exists():
+        return None
+    canonical, canonical_error = _load_json(canonical_path)
+    import_report, report_error = _load_json(report_path)
+    if canonical_error or report_error or canonical is None or import_report is None:
+        return None
+
+    nodes = _root_children(canonical)
+    page_count = int(canonical.get("page_count", 0) or 0)
+    page_stats: dict[int, dict[str, int]] = defaultdict(lambda: {"nodes": 0, "characters": 0, "words": 0, "lines": 0, "suspicious": 0, "headers": 0})
+    line_counts: Counter[str] = Counter()
+    suspicious_counts: Counter[str] = Counter()
+
+    for node in nodes:
+        page = _node_page(node)
+        if page is None:
+            continue
+        text = str(node.get("text", ""))
+        lines = _text_lines(text)
+        page_stats[page]["nodes"] += 1
+        page_stats[page]["characters"] += len(text.strip())
+        page_stats[page]["words"] += len(text.replace("\n", " ").split())
+        page_stats[page]["lines"] += len(lines)
+        for line in lines:
+            line_counts[line] += 1
+            if _is_suspicious_line(line):
+                page_stats[page]["suspicious"] += 1
+                suspicious_counts[line] += 1
+
+    repeated_headers = {
+        line: count
+        for line, count in line_counts.items()
+        if count >= 3 and any(hint in line for hint in HEADER_HINTS)
+    }
+    for node in nodes:
+        page = _node_page(node)
+        if page is None:
+            continue
+        for line in _text_lines(str(node.get("text", ""))):
+            if line in repeated_headers:
+                page_stats[page]["headers"] += 1
+
+    pages = []
+    for page in range(1, page_count + 1):
+        pages.append({"page": page, **page_stats[page]})
+
+    return {
+        "slug": result.get("slug"),
+        "source_pdf": result.get("source_pdf"),
+        "sha256": import_report.get("sha256"),
+        "page_range": import_report.get("page_range"),
+        "page_count": page_count,
+        "node_count": len(nodes),
+        "word_count": sum(page["words"] for page in pages),
+        "character_count": sum(page["characters"] for page in pages),
+        "empty_pages": [page["page"] for page in pages if page["characters"] == 0],
+        "low_text_pages": [page["page"] for page in pages if 0 < page["characters"] < 80],
+        "repeated_headers": repeated_headers,
+        "suspicious_lines": dict(suspicious_counts.most_common(40)),
+        "pages_needing_review": sorted(pages, key=lambda page: (page["suspicious"] + page["headers"], -page["characters"]), reverse=True)[:25],
+        "pages": pages,
+    }
+
+
+def _write_ocr_quality_report(results: list[dict[str, Any]]) -> None:
+    OCR_REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    sources = []
+    for result in results:
+        analyzed = _analyze_ocr_source(result)
+        if analyzed is not None:
+            sources.append(analyzed)
+
+    report = {"source_count": len(sources), "sources": sources}
+    OCR_REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    lines = ["# HERKULES OCR Quality Report", "", "Generated from queued EDT pilot outputs.", ""]
+    for source in sources:
+        lines.extend([
+            f"## {source['slug']}",
+            "",
+            f"- Source PDF: `{source['source_pdf']}`",
+            f"- SHA-256: `{source['sha256']}`",
+            f"- Pages: {source['page_count']}",
+            f"- EDOM nodes: {source['node_count']}",
+            f"- OCR words: {source['word_count']}",
+            f"- OCR characters: {source['character_count']}",
+            f"- Empty pages: {len(source['empty_pages'])}",
+            f"- Low-text pages: {len(source['low_text_pages'])}",
+            "",
+            "### Repeated header/footer candidates",
+            "",
+        ])
+        repeated = source["repeated_headers"]
+        if repeated:
+            for text, count in sorted(repeated.items(), key=lambda item: (-item[1], item[0]))[:20]:
+                lines.append(f"- `{text}` — {count}")
+        else:
+            lines.append("None detected.")
+        lines.extend(["", "### Suspicious OCR lines", ""])
+        suspicious = source["suspicious_lines"]
+        if suspicious:
+            for text, count in list(suspicious.items())[:20]:
+                lines.append(f"- `{text}` — {count}")
+        else:
+            lines.append("None detected.")
+        lines.extend(["", "### Pages needing review", "", "| Page | Chars | Suspicious | Header/footer |", "|---:|---:|---:|---:|"])
+        for page in source["pages_needing_review"]:
+            lines.append(f"| {page['page']} | {page['characters']} | {page['suspicious']} | {page['headers']} |")
+        lines.append("")
+
+    OCR_REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Wrote: {OCR_REPORT_JSON.relative_to(ROOT)}")
+    print(f"Wrote: {OCR_REPORT_MD.relative_to(ROOT)}")
+
+
 def main() -> int:
     issues: list[str] = []
 
@@ -179,6 +335,7 @@ def main() -> int:
 
     print("EDT pilot output check passed")
     if isinstance(results, list):
+        _write_ocr_quality_report([result for result in results if isinstance(result, dict)])
         for result in results:
             print(f"- {result.get('slug')}: {result.get('source_pdf')}")
     return 0
