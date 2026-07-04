@@ -22,10 +22,10 @@ edt-check:
 edt-pilot:
 	python3 build/scripts/edt_pilot.py
 
-edt-report:
-	@echo "EDT report placeholder: reports/pilot/pilot-status.json is produced by make edt-pilot."
+edt-report: edt-pilot
+	@echo "EDT pilot status: reports/pilot/pilot-status.json"
 
-edt-html:
-	@echo "EDT HTML placeholder: generate semantic HTML output after EDT command wiring is finalized."
+edt-html: edt-pilot
+	@echo "EDT pilot HTML: output/pilot/html/herkules-pilot.html"
 
 all: check build indexes glossary pandoc
