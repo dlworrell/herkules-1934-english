@@ -1,4 +1,4 @@
-.PHONY: build check indexes glossary pandoc all edt-check edt-pilot edt-report edt-html
+.PHONY: build check indexes glossary pandoc all edt-check edt-pilot edt-pilot-check edt-report edt-html
 
 build:
 	python3 build/scripts/build.py
@@ -21,6 +21,10 @@ edt-check:
 
 edt-pilot:
 	python3 build/scripts/edt_pilot.py
+	python3 build/scripts/check_edt_pilot_outputs.py
+
+edt-pilot-check:
+	python3 build/scripts/check_edt_pilot_outputs.py
 
 edt-report: edt-pilot
 	@echo "EDT pilot status: reports/pilot/pilot-status.json"
