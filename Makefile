@@ -16,7 +16,7 @@ pandoc: build
 	python3 build/scripts/build_pandoc.py
 
 edt-check:
-	python3 -m edt.cli check
+	python3 -c "import edt.cli"
 	@echo "EDT dependency is available."
 
 edt-pilot:
