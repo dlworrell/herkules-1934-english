@@ -5,7 +5,7 @@ from pathlib import Path
 
 from edt.edom_markdown import write_edom_markdown
 from edt.html import write_edom_html
-from edt.project_import import import_project
+from edt.project_import import import_project, load_project_import_config
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -20,6 +20,15 @@ PILOT_STATUS = ROOT / "reports" / "pilot" / "pilot-status.json"
 def main() -> int:
     if not MANIFEST.exists():
         print("Missing edt/project.yml manifest.")
+        return 1
+
+    config = load_project_import_config(ROOT, MANIFEST)
+    if not config.source_pdf.exists():
+        print(
+            "Missing HERKULES source PDF: "
+            f"{config.source_pdf.relative_to(ROOT)}"
+        )
+        print("Add the source PDF at the manifest path before running make edt-pilot.")
         return 1
 
     import_project(ROOT, MANIFEST)
