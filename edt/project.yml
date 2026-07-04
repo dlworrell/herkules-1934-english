@@ -9,7 +9,7 @@ source:
   primary_pdf: source/original/Manual-HERKULES-2015-10-16-1.pdf
   pilot_pages:
     start: 1
-    end: 3
+    end: 100
 
 ocr:
   enabled: true
