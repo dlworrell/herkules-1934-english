@@ -40,6 +40,7 @@ OCR_PAGE_FURNITURE_PREFIXES = (
     "» ",
     "ee ",
 )
+BULLET_PREFIXES = (". - ", ".- ", ". ", ".« ", "«  ", "« ", "ee ", "e  ", "e ")
 
 
 def _relative(path: Path) -> str:
@@ -292,18 +293,17 @@ def _is_embedded_page_furniture(stripped: str) -> bool:
     return has_furniture and has_ocr_prefix
 
 
-def _clean_line(line: str, repeated_headers: dict[str, int]) -> tuple[str | None, str | None]:
+def _clean_line(line: str, repeated_headers: dict[str, int]) -> tuple[str, str | None]:
     stripped = line.strip()
     lowered = stripped.lower()
     if stripped in repeated_headers:
-        return None, "suppressed_repeated_header"
+        return stripped, "preserved_repeated_header_candidate"
     if _is_embedded_page_furniture(stripped):
-        return None, "suppressed_embedded_page_furniture"
+        return stripped, "preserved_embedded_page_furniture_candidate"
     if lowered in STRAY_LINES:
-        return None, "suppressed_stray_line"
-    for prefix in (". - ", ".- ", ". ", ".« ", "«  ", "« ", "ee ", "e  ", "e "):
-        if stripped.startswith(prefix):
-            return "- " + stripped[len(prefix):].strip(), "normalized_bullet"
+        return stripped, "preserved_stray_line_candidate"
+    if stripped.startswith(BULLET_PREFIXES):
+        return stripped, "preserved_bullet_candidate"
     return stripped, None
 
 
@@ -331,12 +331,11 @@ def _write_clean_swedish_source(results: list[dict[str, Any]], sources: list[dic
                 cleaned, action = _clean_line(line, repeated_headers)
                 if action:
                     counts[action] += 1
-                if cleaned:
-                    page_lines[page].append(cleaned)
+                page_lines[page].append(cleaned)
 
         page_count = int(canonical.get("page_count", 0) or 0)
         output_path = SWEDISH_PILOT_DIR / f"{slug}.cleaned.md"
-        markdown = [f"# {slug} — cleaned Swedish pilot source", "", "<!-- generated from EDT pilot EDOM; do not edit generated file directly -->", ""]
+        markdown = [f"# {slug} — preserved Swedish pilot source", "", "<!-- generated from EDT pilot EDOM; all OCR text lines are preserved; review candidates are reported separately -->", ""]
         for page in range(1, page_count + 1):
             markdown.extend([f"<!-- source-page: {page:04d} -->", ""])
             markdown.extend(page_lines.get(page, []))
@@ -347,26 +346,26 @@ def _write_clean_swedish_source(results: list[dict[str, Any]], sources: list[dic
             "slug": slug,
             "cleaned_markdown": _relative(output_path),
             "page_count": page_count,
-            "suppressed_repeated_headers": counts["suppressed_repeated_header"],
-            "suppressed_embedded_page_furniture": counts["suppressed_embedded_page_furniture"],
-            "suppressed_stray_lines": counts["suppressed_stray_line"],
-            "normalized_bullets": counts["normalized_bullet"],
+            "preserved_repeated_header_candidates": counts["preserved_repeated_header_candidate"],
+            "preserved_embedded_page_furniture_candidates": counts["preserved_embedded_page_furniture_candidate"],
+            "preserved_stray_line_candidates": counts["preserved_stray_line_candidate"],
+            "preserved_bullet_candidates": counts["preserved_bullet_candidate"],
         })
         print(f"Wrote: {_relative(output_path)}")
 
     report = {"source_count": len(cleaning_sources), "sources": cleaning_sources}
     CLEANING_REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    lines = ["# HERKULES Swedish Source Cleaning Report", "", "Generated from queued EDT pilot EDOM and OCR quality findings.", ""]
+    lines = ["# HERKULES Swedish Source Preservation Report", "", "Generated from queued EDT pilot EDOM. No OCR text lines are removed from the Swedish source layer.", ""]
     for source in cleaning_sources:
         lines.extend([
             f"## {source['slug']}",
             "",
-            f"- Cleaned Markdown: `{source['cleaned_markdown']}`",
+            f"- Preserved Markdown: `{source['cleaned_markdown']}`",
             f"- Pages: {source['page_count']}",
-            f"- Suppressed repeated headers/footers: {source['suppressed_repeated_headers']}",
-            f"- Suppressed embedded page furniture: {source['suppressed_embedded_page_furniture']}",
-            f"- Suppressed stray lines: {source['suppressed_stray_lines']}",
-            f"- Normalized bullet lines: {source['normalized_bullets']}",
+            f"- Preserved repeated header/footer candidates: {source['preserved_repeated_header_candidates']}",
+            f"- Preserved embedded page-furniture candidates: {source['preserved_embedded_page_furniture_candidates']}",
+            f"- Preserved stray-line candidates: {source['preserved_stray_line_candidates']}",
+            f"- Preserved bullet candidates: {source['preserved_bullet_candidates']}",
             "",
         ])
     CLEANING_REPORT_MD.write_text("\n".join(lines), encoding="utf-8")
