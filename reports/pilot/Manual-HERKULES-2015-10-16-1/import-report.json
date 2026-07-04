@@ -6,7 +6,7 @@
   "pages_dir": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages",
   "page_range": {
     "start": 1,
-    "end": 3
+    "end": 100
   },
   "pages": [
     {
@@ -38,6 +38,976 @@
       "layout_status": "waiting_for_ocr",
       "semantic_status": "waiting_for_layout",
       "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 4,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 5,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 6,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 7,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 8,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 9,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 10,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 11,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 12,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 13,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 14,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 15,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 16,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 17,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 18,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 19,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 20,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 21,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 22,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 23,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 24,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 25,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 26,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 27,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 28,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 29,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 30,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 31,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 32,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 33,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 34,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 35,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 36,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 37,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 38,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 39,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 40,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 41,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 42,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 43,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 44,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 45,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 46,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 47,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 48,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 49,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 50,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 51,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 52,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 53,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 54,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 55,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 56,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 57,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 58,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 59,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 60,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 61,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 62,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 63,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 64,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 65,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 66,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 67,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 68,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 69,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 70,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 71,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 72,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 73,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 74,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 75,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 76,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 77,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 78,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 79,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 80,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 81,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 82,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 83,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 84,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 85,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 86,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 87,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 88,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 89,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 90,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 91,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 92,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 93,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 94,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 95,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 96,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 97,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 98,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 99,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 100,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
     }
   ],
   "image_results": [
@@ -55,6 +1025,491 @@
       "page": 3,
       "status": "extracted",
       "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/image.png"
+    },
+    {
+      "page": 4,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004/image.png"
+    },
+    {
+      "page": 5,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005/image.png"
+    },
+    {
+      "page": 6,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006/image.png"
+    },
+    {
+      "page": 7,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007/image.png"
+    },
+    {
+      "page": 8,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008/image.png"
+    },
+    {
+      "page": 9,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009/image.png"
+    },
+    {
+      "page": 10,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010/image.png"
+    },
+    {
+      "page": 11,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011/image.png"
+    },
+    {
+      "page": 12,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012/image.png"
+    },
+    {
+      "page": 13,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013/image.png"
+    },
+    {
+      "page": 14,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014/image.png"
+    },
+    {
+      "page": 15,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015/image.png"
+    },
+    {
+      "page": 16,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016/image.png"
+    },
+    {
+      "page": 17,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017/image.png"
+    },
+    {
+      "page": 18,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018/image.png"
+    },
+    {
+      "page": 19,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019/image.png"
+    },
+    {
+      "page": 20,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020/image.png"
+    },
+    {
+      "page": 21,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021/image.png"
+    },
+    {
+      "page": 22,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022/image.png"
+    },
+    {
+      "page": 23,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023/image.png"
+    },
+    {
+      "page": 24,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024/image.png"
+    },
+    {
+      "page": 25,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025/image.png"
+    },
+    {
+      "page": 26,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026/image.png"
+    },
+    {
+      "page": 27,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027/image.png"
+    },
+    {
+      "page": 28,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028/image.png"
+    },
+    {
+      "page": 29,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029/image.png"
+    },
+    {
+      "page": 30,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030/image.png"
+    },
+    {
+      "page": 31,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031/image.png"
+    },
+    {
+      "page": 32,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032/image.png"
+    },
+    {
+      "page": 33,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033/image.png"
+    },
+    {
+      "page": 34,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034/image.png"
+    },
+    {
+      "page": 35,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035/image.png"
+    },
+    {
+      "page": 36,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036/image.png"
+    },
+    {
+      "page": 37,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037/image.png"
+    },
+    {
+      "page": 38,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038/image.png"
+    },
+    {
+      "page": 39,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039/image.png"
+    },
+    {
+      "page": 40,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040/image.png"
+    },
+    {
+      "page": 41,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041/image.png"
+    },
+    {
+      "page": 42,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042/image.png"
+    },
+    {
+      "page": 43,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043/image.png"
+    },
+    {
+      "page": 44,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044/image.png"
+    },
+    {
+      "page": 45,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045/image.png"
+    },
+    {
+      "page": 46,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046/image.png"
+    },
+    {
+      "page": 47,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047/image.png"
+    },
+    {
+      "page": 48,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048/image.png"
+    },
+    {
+      "page": 49,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049/image.png"
+    },
+    {
+      "page": 50,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050/image.png"
+    },
+    {
+      "page": 51,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051/image.png"
+    },
+    {
+      "page": 52,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052/image.png"
+    },
+    {
+      "page": 53,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053/image.png"
+    },
+    {
+      "page": 54,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054/image.png"
+    },
+    {
+      "page": 55,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055/image.png"
+    },
+    {
+      "page": 56,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056/image.png"
+    },
+    {
+      "page": 57,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057/image.png"
+    },
+    {
+      "page": 58,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058/image.png"
+    },
+    {
+      "page": 59,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059/image.png"
+    },
+    {
+      "page": 60,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060/image.png"
+    },
+    {
+      "page": 61,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061/image.png"
+    },
+    {
+      "page": 62,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062/image.png"
+    },
+    {
+      "page": 63,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063/image.png"
+    },
+    {
+      "page": 64,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064/image.png"
+    },
+    {
+      "page": 65,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065/image.png"
+    },
+    {
+      "page": 66,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066/image.png"
+    },
+    {
+      "page": 67,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067/image.png"
+    },
+    {
+      "page": 68,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068/image.png"
+    },
+    {
+      "page": 69,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069/image.png"
+    },
+    {
+      "page": 70,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070/image.png"
+    },
+    {
+      "page": 71,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071/image.png"
+    },
+    {
+      "page": 72,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072/image.png"
+    },
+    {
+      "page": 73,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073/image.png"
+    },
+    {
+      "page": 74,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074/image.png"
+    },
+    {
+      "page": 75,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075/image.png"
+    },
+    {
+      "page": 76,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076/image.png"
+    },
+    {
+      "page": 77,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077/image.png"
+    },
+    {
+      "page": 78,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078/image.png"
+    },
+    {
+      "page": 79,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079/image.png"
+    },
+    {
+      "page": 80,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080/image.png"
+    },
+    {
+      "page": 81,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081/image.png"
+    },
+    {
+      "page": 82,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082/image.png"
+    },
+    {
+      "page": 83,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083/image.png"
+    },
+    {
+      "page": 84,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084/image.png"
+    },
+    {
+      "page": 85,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085/image.png"
+    },
+    {
+      "page": 86,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086/image.png"
+    },
+    {
+      "page": 87,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087/image.png"
+    },
+    {
+      "page": 88,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088/image.png"
+    },
+    {
+      "page": 89,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089/image.png"
+    },
+    {
+      "page": 90,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090/image.png"
+    },
+    {
+      "page": 91,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091/image.png"
+    },
+    {
+      "page": 92,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092/image.png"
+    },
+    {
+      "page": 93,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093/image.png"
+    },
+    {
+      "page": 94,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094/image.png"
+    },
+    {
+      "page": 95,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095/image.png"
+    },
+    {
+      "page": 96,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096/image.png"
+    },
+    {
+      "page": 97,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097/image.png"
+    },
+    {
+      "page": 98,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098/image.png"
+    },
+    {
+      "page": 99,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099/image.png"
+    },
+    {
+      "page": 100,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100/image.png"
     }
   ],
   "ocr_results": [
@@ -72,6 +1527,491 @@
       "page": 3,
       "status": "complete",
       "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/ocr.json"
+    },
+    {
+      "page": 4,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004/ocr.json"
+    },
+    {
+      "page": 5,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005/ocr.json"
+    },
+    {
+      "page": 6,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006/ocr.json"
+    },
+    {
+      "page": 7,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007/ocr.json"
+    },
+    {
+      "page": 8,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008/ocr.json"
+    },
+    {
+      "page": 9,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009/ocr.json"
+    },
+    {
+      "page": 10,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010/ocr.json"
+    },
+    {
+      "page": 11,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011/ocr.json"
+    },
+    {
+      "page": 12,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012/ocr.json"
+    },
+    {
+      "page": 13,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013/ocr.json"
+    },
+    {
+      "page": 14,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014/ocr.json"
+    },
+    {
+      "page": 15,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015/ocr.json"
+    },
+    {
+      "page": 16,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016/ocr.json"
+    },
+    {
+      "page": 17,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017/ocr.json"
+    },
+    {
+      "page": 18,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018/ocr.json"
+    },
+    {
+      "page": 19,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019/ocr.json"
+    },
+    {
+      "page": 20,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020/ocr.json"
+    },
+    {
+      "page": 21,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021/ocr.json"
+    },
+    {
+      "page": 22,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022/ocr.json"
+    },
+    {
+      "page": 23,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023/ocr.json"
+    },
+    {
+      "page": 24,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024/ocr.json"
+    },
+    {
+      "page": 25,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025/ocr.json"
+    },
+    {
+      "page": 26,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026/ocr.json"
+    },
+    {
+      "page": 27,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027/ocr.json"
+    },
+    {
+      "page": 28,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028/ocr.json"
+    },
+    {
+      "page": 29,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029/ocr.json"
+    },
+    {
+      "page": 30,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030/ocr.json"
+    },
+    {
+      "page": 31,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031/ocr.json"
+    },
+    {
+      "page": 32,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032/ocr.json"
+    },
+    {
+      "page": 33,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033/ocr.json"
+    },
+    {
+      "page": 34,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034/ocr.json"
+    },
+    {
+      "page": 35,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035/ocr.json"
+    },
+    {
+      "page": 36,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036/ocr.json"
+    },
+    {
+      "page": 37,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037/ocr.json"
+    },
+    {
+      "page": 38,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038/ocr.json"
+    },
+    {
+      "page": 39,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039/ocr.json"
+    },
+    {
+      "page": 40,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040/ocr.json"
+    },
+    {
+      "page": 41,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041/ocr.json"
+    },
+    {
+      "page": 42,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042/ocr.json"
+    },
+    {
+      "page": 43,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043/ocr.json"
+    },
+    {
+      "page": 44,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044/ocr.json"
+    },
+    {
+      "page": 45,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045/ocr.json"
+    },
+    {
+      "page": 46,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046/ocr.json"
+    },
+    {
+      "page": 47,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047/ocr.json"
+    },
+    {
+      "page": 48,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048/ocr.json"
+    },
+    {
+      "page": 49,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049/ocr.json"
+    },
+    {
+      "page": 50,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050/ocr.json"
+    },
+    {
+      "page": 51,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051/ocr.json"
+    },
+    {
+      "page": 52,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052/ocr.json"
+    },
+    {
+      "page": 53,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053/ocr.json"
+    },
+    {
+      "page": 54,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054/ocr.json"
+    },
+    {
+      "page": 55,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055/ocr.json"
+    },
+    {
+      "page": 56,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056/ocr.json"
+    },
+    {
+      "page": 57,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057/ocr.json"
+    },
+    {
+      "page": 58,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058/ocr.json"
+    },
+    {
+      "page": 59,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059/ocr.json"
+    },
+    {
+      "page": 60,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060/ocr.json"
+    },
+    {
+      "page": 61,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061/ocr.json"
+    },
+    {
+      "page": 62,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062/ocr.json"
+    },
+    {
+      "page": 63,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063/ocr.json"
+    },
+    {
+      "page": 64,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064/ocr.json"
+    },
+    {
+      "page": 65,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065/ocr.json"
+    },
+    {
+      "page": 66,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066/ocr.json"
+    },
+    {
+      "page": 67,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067/ocr.json"
+    },
+    {
+      "page": 68,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068/ocr.json"
+    },
+    {
+      "page": 69,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069/ocr.json"
+    },
+    {
+      "page": 70,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070/ocr.json"
+    },
+    {
+      "page": 71,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071/ocr.json"
+    },
+    {
+      "page": 72,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072/ocr.json"
+    },
+    {
+      "page": 73,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073/ocr.json"
+    },
+    {
+      "page": 74,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074/ocr.json"
+    },
+    {
+      "page": 75,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075/ocr.json"
+    },
+    {
+      "page": 76,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076/ocr.json"
+    },
+    {
+      "page": 77,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077/ocr.json"
+    },
+    {
+      "page": 78,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078/ocr.json"
+    },
+    {
+      "page": 79,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079/ocr.json"
+    },
+    {
+      "page": 80,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080/ocr.json"
+    },
+    {
+      "page": 81,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081/ocr.json"
+    },
+    {
+      "page": 82,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082/ocr.json"
+    },
+    {
+      "page": 83,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083/ocr.json"
+    },
+    {
+      "page": 84,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084/ocr.json"
+    },
+    {
+      "page": 85,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085/ocr.json"
+    },
+    {
+      "page": 86,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086/ocr.json"
+    },
+    {
+      "page": 87,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087/ocr.json"
+    },
+    {
+      "page": 88,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088/ocr.json"
+    },
+    {
+      "page": 89,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089/ocr.json"
+    },
+    {
+      "page": 90,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090/ocr.json"
+    },
+    {
+      "page": 91,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091/ocr.json"
+    },
+    {
+      "page": 92,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092/ocr.json"
+    },
+    {
+      "page": 93,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093/ocr.json"
+    },
+    {
+      "page": 94,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094/ocr.json"
+    },
+    {
+      "page": 95,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095/ocr.json"
+    },
+    {
+      "page": 96,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096/ocr.json"
+    },
+    {
+      "page": 97,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097/ocr.json"
+    },
+    {
+      "page": 98,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098/ocr.json"
+    },
+    {
+      "page": 99,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099/ocr.json"
+    },
+    {
+      "page": 100,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100/ocr.json"
     }
   ],
   "layout_results": [
@@ -91,6 +2031,588 @@
       "page": 3,
       "status": "complete",
       "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 4,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 5,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 6,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 7,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 8,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 9,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 10,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 11,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 12,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 13,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 14,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 15,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 16,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 17,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 18,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 19,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 20,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 21,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 22,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 23,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 24,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 25,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 26,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 27,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 28,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 29,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 30,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 31,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 32,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 33,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 34,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 35,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 36,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 37,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 38,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 39,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 40,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 41,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 42,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 43,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 44,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 45,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 46,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 47,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 48,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 49,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 50,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 51,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 52,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 53,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 54,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 55,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 56,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 57,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 58,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 59,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 60,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 61,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 62,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 63,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 64,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 65,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 66,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 67,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 68,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 69,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 70,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 71,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 72,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 73,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 74,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 75,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 76,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 77,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 78,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 79,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 80,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 81,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 82,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 83,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 84,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 85,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 86,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 87,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 88,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 89,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 90,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 91,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 92,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 93,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 94,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 95,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 96,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 97,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 98,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 99,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 100,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100/layout.json",
       "blocks": 1
     }
   ],
@@ -115,6 +2637,685 @@
       "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/semantic.json",
       "blocks": 1,
       "relationships": 0
+    },
+    {
+      "page": 4,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 5,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 6,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 7,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 8,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 9,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 10,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 11,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 12,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 13,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 14,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 15,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 16,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 17,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 18,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 19,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 20,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 21,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 22,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 23,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 24,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 25,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 26,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 27,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 28,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 29,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 30,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 31,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 32,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 33,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 34,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 35,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 36,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 37,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 38,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 39,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 40,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 41,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 42,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 43,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 44,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 45,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 46,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 47,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 48,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 49,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 50,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 51,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 52,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 53,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 54,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 55,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 56,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 57,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 58,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 59,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 60,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 61,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 62,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 63,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 64,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 65,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 66,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 67,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 68,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 69,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 70,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 71,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 72,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 73,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 74,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 75,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 76,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 77,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 78,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 79,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 80,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 81,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 82,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 83,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 84,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 85,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 86,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 87,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 88,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 89,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 90,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 91,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 92,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 93,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 94,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 95,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 96,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 97,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 98,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 99,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 100,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100/semantic.json",
+      "blocks": 1,
+      "relationships": 0
     }
   ],
   "edom_results": [
@@ -135,18 +3336,600 @@
       "status": "complete",
       "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/edom.json",
       "children": 1
+    },
+    {
+      "page": 4,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0004/edom.json",
+      "children": 1
+    },
+    {
+      "page": 5,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0005/edom.json",
+      "children": 1
+    },
+    {
+      "page": 6,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0006/edom.json",
+      "children": 1
+    },
+    {
+      "page": 7,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0007/edom.json",
+      "children": 1
+    },
+    {
+      "page": 8,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0008/edom.json",
+      "children": 1
+    },
+    {
+      "page": 9,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0009/edom.json",
+      "children": 1
+    },
+    {
+      "page": 10,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0010/edom.json",
+      "children": 1
+    },
+    {
+      "page": 11,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0011/edom.json",
+      "children": 1
+    },
+    {
+      "page": 12,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0012/edom.json",
+      "children": 1
+    },
+    {
+      "page": 13,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0013/edom.json",
+      "children": 1
+    },
+    {
+      "page": 14,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0014/edom.json",
+      "children": 1
+    },
+    {
+      "page": 15,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0015/edom.json",
+      "children": 1
+    },
+    {
+      "page": 16,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0016/edom.json",
+      "children": 1
+    },
+    {
+      "page": 17,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0017/edom.json",
+      "children": 1
+    },
+    {
+      "page": 18,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0018/edom.json",
+      "children": 1
+    },
+    {
+      "page": 19,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0019/edom.json",
+      "children": 1
+    },
+    {
+      "page": 20,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0020/edom.json",
+      "children": 1
+    },
+    {
+      "page": 21,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0021/edom.json",
+      "children": 1
+    },
+    {
+      "page": 22,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0022/edom.json",
+      "children": 1
+    },
+    {
+      "page": 23,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0023/edom.json",
+      "children": 1
+    },
+    {
+      "page": 24,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0024/edom.json",
+      "children": 1
+    },
+    {
+      "page": 25,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0025/edom.json",
+      "children": 1
+    },
+    {
+      "page": 26,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0026/edom.json",
+      "children": 1
+    },
+    {
+      "page": 27,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0027/edom.json",
+      "children": 1
+    },
+    {
+      "page": 28,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0028/edom.json",
+      "children": 1
+    },
+    {
+      "page": 29,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0029/edom.json",
+      "children": 1
+    },
+    {
+      "page": 30,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0030/edom.json",
+      "children": 1
+    },
+    {
+      "page": 31,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0031/edom.json",
+      "children": 1
+    },
+    {
+      "page": 32,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0032/edom.json",
+      "children": 1
+    },
+    {
+      "page": 33,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0033/edom.json",
+      "children": 1
+    },
+    {
+      "page": 34,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0034/edom.json",
+      "children": 1
+    },
+    {
+      "page": 35,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0035/edom.json",
+      "children": 1
+    },
+    {
+      "page": 36,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0036/edom.json",
+      "children": 1
+    },
+    {
+      "page": 37,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0037/edom.json",
+      "children": 1
+    },
+    {
+      "page": 38,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0038/edom.json",
+      "children": 1
+    },
+    {
+      "page": 39,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0039/edom.json",
+      "children": 1
+    },
+    {
+      "page": 40,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0040/edom.json",
+      "children": 1
+    },
+    {
+      "page": 41,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0041/edom.json",
+      "children": 1
+    },
+    {
+      "page": 42,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0042/edom.json",
+      "children": 1
+    },
+    {
+      "page": 43,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0043/edom.json",
+      "children": 1
+    },
+    {
+      "page": 44,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0044/edom.json",
+      "children": 1
+    },
+    {
+      "page": 45,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0045/edom.json",
+      "children": 1
+    },
+    {
+      "page": 46,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0046/edom.json",
+      "children": 1
+    },
+    {
+      "page": 47,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0047/edom.json",
+      "children": 1
+    },
+    {
+      "page": 48,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0048/edom.json",
+      "children": 1
+    },
+    {
+      "page": 49,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0049/edom.json",
+      "children": 1
+    },
+    {
+      "page": 50,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0050/edom.json",
+      "children": 1
+    },
+    {
+      "page": 51,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0051/edom.json",
+      "children": 1
+    },
+    {
+      "page": 52,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0052/edom.json",
+      "children": 1
+    },
+    {
+      "page": 53,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0053/edom.json",
+      "children": 1
+    },
+    {
+      "page": 54,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0054/edom.json",
+      "children": 1
+    },
+    {
+      "page": 55,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0055/edom.json",
+      "children": 1
+    },
+    {
+      "page": 56,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0056/edom.json",
+      "children": 1
+    },
+    {
+      "page": 57,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0057/edom.json",
+      "children": 1
+    },
+    {
+      "page": 58,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0058/edom.json",
+      "children": 1
+    },
+    {
+      "page": 59,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0059/edom.json",
+      "children": 1
+    },
+    {
+      "page": 60,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0060/edom.json",
+      "children": 1
+    },
+    {
+      "page": 61,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0061/edom.json",
+      "children": 1
+    },
+    {
+      "page": 62,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0062/edom.json",
+      "children": 1
+    },
+    {
+      "page": 63,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0063/edom.json",
+      "children": 1
+    },
+    {
+      "page": 64,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0064/edom.json",
+      "children": 1
+    },
+    {
+      "page": 65,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0065/edom.json",
+      "children": 1
+    },
+    {
+      "page": 66,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0066/edom.json",
+      "children": 1
+    },
+    {
+      "page": 67,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0067/edom.json",
+      "children": 1
+    },
+    {
+      "page": 68,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0068/edom.json",
+      "children": 1
+    },
+    {
+      "page": 69,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0069/edom.json",
+      "children": 1
+    },
+    {
+      "page": 70,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0070/edom.json",
+      "children": 1
+    },
+    {
+      "page": 71,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0071/edom.json",
+      "children": 1
+    },
+    {
+      "page": 72,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0072/edom.json",
+      "children": 1
+    },
+    {
+      "page": 73,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0073/edom.json",
+      "children": 1
+    },
+    {
+      "page": 74,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0074/edom.json",
+      "children": 1
+    },
+    {
+      "page": 75,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0075/edom.json",
+      "children": 1
+    },
+    {
+      "page": 76,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0076/edom.json",
+      "children": 1
+    },
+    {
+      "page": 77,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0077/edom.json",
+      "children": 1
+    },
+    {
+      "page": 78,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0078/edom.json",
+      "children": 1
+    },
+    {
+      "page": 79,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0079/edom.json",
+      "children": 1
+    },
+    {
+      "page": 80,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0080/edom.json",
+      "children": 1
+    },
+    {
+      "page": 81,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0081/edom.json",
+      "children": 1
+    },
+    {
+      "page": 82,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0082/edom.json",
+      "children": 1
+    },
+    {
+      "page": 83,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0083/edom.json",
+      "children": 1
+    },
+    {
+      "page": 84,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0084/edom.json",
+      "children": 1
+    },
+    {
+      "page": 85,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0085/edom.json",
+      "children": 1
+    },
+    {
+      "page": 86,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0086/edom.json",
+      "children": 1
+    },
+    {
+      "page": 87,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0087/edom.json",
+      "children": 1
+    },
+    {
+      "page": 88,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0088/edom.json",
+      "children": 1
+    },
+    {
+      "page": 89,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0089/edom.json",
+      "children": 1
+    },
+    {
+      "page": 90,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0090/edom.json",
+      "children": 1
+    },
+    {
+      "page": 91,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0091/edom.json",
+      "children": 1
+    },
+    {
+      "page": 92,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0092/edom.json",
+      "children": 1
+    },
+    {
+      "page": 93,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0093/edom.json",
+      "children": 1
+    },
+    {
+      "page": 94,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0094/edom.json",
+      "children": 1
+    },
+    {
+      "page": 95,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0095/edom.json",
+      "children": 1
+    },
+    {
+      "page": 96,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0096/edom.json",
+      "children": 1
+    },
+    {
+      "page": 97,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0097/edom.json",
+      "children": 1
+    },
+    {
+      "page": 98,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0098/edom.json",
+      "children": 1
+    },
+    {
+      "page": 99,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0099/edom.json",
+      "children": 1
+    },
+    {
+      "page": 100,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0100/edom.json",
+      "children": 1
     }
   ],
   "document_edom": {
     "status": "complete",
     "document": "output/pilot/Manual-HERKULES-2015-10-16-1/edom/document.edom.json",
-    "pages": 3
+    "pages": 100
   },
   "canonical_document_edom": {
     "status": "complete",
     "document": "output/pilot/Manual-HERKULES-2015-10-16-1/edom/canonical-document.edom.json",
-    "pages": 3,
-    "nodes": 3
+    "pages": 100,
+    "nodes": 100
   },
   "edom_output": "output/pilot/Manual-HERKULES-2015-10-16-1/edom",
   "status": "imported"
