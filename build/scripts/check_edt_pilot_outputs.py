@@ -26,6 +26,11 @@ EXPECTED_STAGE_STATUSES = {
 }
 STRAY_LINES = {"uv", "lr", "huvet"}
 HEADER_HINTS = ("HERKULES", "Söderström", "Rak 16")
+EMBEDDED_PAGE_FURNITURE = (
+    "Söderström - HERKULES 1934",
+    "Soderstrom - HERKULES 1934",
+    "Rak 16-Cylinder",
+)
 
 
 def _relative(path: Path) -> str:
@@ -270,11 +275,19 @@ def _write_ocr_quality_report(results: list[dict[str, Any]]) -> list[dict[str, A
     return sources
 
 
+def _is_embedded_page_furniture(stripped: str) -> bool:
+    if "Söderström”s Motor Werkstad" in stripped:
+        return False
+    return any(furniture in stripped for furniture in EMBEDDED_PAGE_FURNITURE)
+
+
 def _clean_line(line: str, repeated_headers: dict[str, int]) -> tuple[str | None, str | None]:
     stripped = line.strip()
     lowered = stripped.lower()
     if stripped in repeated_headers:
         return None, "suppressed_repeated_header"
+    if _is_embedded_page_furniture(stripped):
+        return None, "suppressed_embedded_page_furniture"
     if lowered in STRAY_LINES:
         return None, "suppressed_stray_line"
     for prefix in (". - ", ".- ", ". ", ".« ", "«  ", "« ", "ee ", "e  ", "e "):
@@ -324,6 +337,7 @@ def _write_clean_swedish_source(results: list[dict[str, Any]], sources: list[dic
             "cleaned_markdown": _relative(output_path),
             "page_count": page_count,
             "suppressed_repeated_headers": counts["suppressed_repeated_header"],
+            "suppressed_embedded_page_furniture": counts["suppressed_embedded_page_furniture"],
             "suppressed_stray_lines": counts["suppressed_stray_line"],
             "normalized_bullets": counts["normalized_bullet"],
         })
@@ -339,6 +353,7 @@ def _write_clean_swedish_source(results: list[dict[str, Any]], sources: list[dic
             f"- Cleaned Markdown: `{source['cleaned_markdown']}`",
             f"- Pages: {source['page_count']}",
             f"- Suppressed repeated headers/footers: {source['suppressed_repeated_headers']}",
+            f"- Suppressed embedded page furniture: {source['suppressed_embedded_page_furniture']}",
             f"- Suppressed stray lines: {source['suppressed_stray_lines']}",
             f"- Normalized bullet lines: {source['normalized_bullets']}",
             "",
