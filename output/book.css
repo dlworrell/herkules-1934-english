@@ -1,0 +1,15 @@
+body {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+code, pre {
+  font-family: ui-monospace, monospace;
+}
