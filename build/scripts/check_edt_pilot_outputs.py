@@ -67,8 +67,57 @@ def _check_status_payload(status: dict[str, Any]) -> list[str]:
     return issues
 
 
+def _check_import_report(report: dict[str, Any]) -> list[str]:
+    issues: list[str] = []
+    if report.get("source_exists") is not True:
+        issues.append(
+            f"pilot source is missing or unavailable: {report.get('source_pdf')!r}"
+        )
+
+    canonical = report.get("canonical_document_edom")
+    if isinstance(canonical, dict):
+        pages = canonical.get("pages")
+        nodes = canonical.get("nodes")
+        if not isinstance(pages, int) or pages < 1:
+            issues.append(f"canonical EDOM has no pages: pages={pages!r}")
+        if not isinstance(nodes, int) or nodes < 1:
+            issues.append(f"canonical EDOM has no top-level nodes: nodes={nodes!r}")
+    else:
+        issues.append("import report is missing canonical_document_edom summary")
+
+    for stage_name in ("image_results", "ocr_results", "layout_results", "semantic_results", "edom_results"):
+        results = report.get(stage_name)
+        if not isinstance(results, list) or not results:
+            issues.append(f"import report has no {stage_name}")
+            continue
+        incomplete = []
+        for result in results:
+            if isinstance(result, dict) and result.get("status") != "complete":
+                incomplete.append(result)
+        if incomplete:
+            sample = incomplete[0]
+            issues.append(f"{stage_name} contains incomplete page results; first={sample!r}")
+    return issues
+
+
+def _check_canonical_edom(payload: dict[str, Any]) -> list[str]:
+    issues: list[str] = []
+    page_count = payload.get("page_count")
+    if not isinstance(page_count, int) or page_count < 1:
+        issues.append(f"canonical EDOM file has no pages: page_count={page_count!r}")
+    root = payload.get("root")
+    if not isinstance(root, dict):
+        issues.append("canonical EDOM file has no root object")
+        return issues
+    children = root.get("children")
+    if not isinstance(children, list) or not children:
+        issues.append("canonical EDOM root has no children")
+    return issues
+
+
 def main() -> int:
     issues: list[str] = []
+    loaded_json: dict[str, dict[str, Any]] = {}
 
     for path in EXPECTED_FILES.values():
         issues.extend(_check_file(path))
@@ -79,8 +128,15 @@ def main() -> int:
             payload, error = _load_json(path)
             if error:
                 issues.append(error)
-            elif key == "pilot_status" and payload is not None:
-                issues.extend(_check_status_payload(payload))
+            elif payload is not None:
+                loaded_json[key] = payload
+
+    if "pilot_status" in loaded_json:
+        issues.extend(_check_status_payload(loaded_json["pilot_status"]))
+    if "import_report" in loaded_json:
+        issues.extend(_check_import_report(loaded_json["import_report"]))
+    if "canonical_edom" in loaded_json:
+        issues.extend(_check_canonical_edom(loaded_json["canonical_edom"]))
 
     markdown = EXPECTED_FILES["markdown"]
     if markdown.exists() and markdown.is_file():
