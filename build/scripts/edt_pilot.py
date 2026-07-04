@@ -54,7 +54,8 @@ def _write_queue_manifest(source_pdf: Path, slug: str, base_config) -> Path:
         f"  language: {base_config.ocr_language}\n"
         "outputs:\n"
         f"  edom: output/pilot/{slug}/edom\n"
-        f"  reports: reports/pilot/{slug}\n",
+        f"  reports: reports/pilot/{slug}\n"
+        f"  pages: .edt/work/pilot/{slug}/pages\n",
         encoding="utf-8",
     )
     return manifest
