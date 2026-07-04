@@ -14,6 +14,9 @@ SOURCE_QUEUE = PILOT_REPORT_DIR / "source-queue.json"
 OCR_REPORT_DIR = ROOT / "reports" / "ocr"
 OCR_REPORT_JSON = OCR_REPORT_DIR / "pilot-quality-report.json"
 OCR_REPORT_MD = OCR_REPORT_DIR / "pilot-quality-report.md"
+CLEANING_REPORT_JSON = OCR_REPORT_DIR / "pilot-cleaning-report.json"
+CLEANING_REPORT_MD = OCR_REPORT_DIR / "pilot-cleaning-report.md"
+SWEDISH_PILOT_DIR = ROOT / "source" / "swedish" / "pilot"
 EXPECTED_STAGE_STATUSES = {
     "image_results": {"extracted"},
     "ocr_results": {"complete"},
@@ -215,7 +218,7 @@ def _analyze_ocr_source(result: dict[str, Any]) -> dict[str, Any] | None:
     }
 
 
-def _write_ocr_quality_report(results: list[dict[str, Any]]) -> None:
+def _write_ocr_quality_report(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     OCR_REPORT_DIR.mkdir(parents=True, exist_ok=True)
     sources = []
     for result in results:
@@ -264,6 +267,85 @@ def _write_ocr_quality_report(results: list[dict[str, Any]]) -> None:
     OCR_REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Wrote: {OCR_REPORT_JSON.relative_to(ROOT)}")
     print(f"Wrote: {OCR_REPORT_MD.relative_to(ROOT)}")
+    return sources
+
+
+def _clean_line(line: str, repeated_headers: dict[str, int]) -> tuple[str | None, str | None]:
+    stripped = line.strip()
+    lowered = stripped.lower()
+    if stripped in repeated_headers:
+        return None, "suppressed_repeated_header"
+    if lowered in STRAY_LINES:
+        return None, "suppressed_stray_line"
+    for prefix in (". - ", ".- ", ". ", ".« ", "«  ", "« ", "ee ", "e  ", "e "):
+        if stripped.startswith(prefix):
+            return "- " + stripped[len(prefix):].strip(), "normalized_bullet"
+    return stripped, None
+
+
+def _write_clean_swedish_source(results: list[dict[str, Any]], sources: list[dict[str, Any]]) -> None:
+    SWEDISH_PILOT_DIR.mkdir(parents=True, exist_ok=True)
+    source_by_slug = {str(source.get("slug")): source for source in sources}
+    cleaning_sources = []
+
+    for result in results:
+        slug = str(result.get("slug"))
+        source_quality = source_by_slug.get(slug, {})
+        repeated_headers = source_quality.get("repeated_headers", {})
+        canonical_path = ROOT / str(result.get("canonical_edom", ""))
+        canonical, error = _load_json(canonical_path)
+        if error or canonical is None:
+            continue
+
+        page_lines: dict[int, list[str]] = defaultdict(list)
+        counts = Counter()
+        for node in _root_children(canonical):
+            page = _node_page(node)
+            if page is None:
+                continue
+            for line in _text_lines(str(node.get("text", ""))):
+                cleaned, action = _clean_line(line, repeated_headers)
+                if action:
+                    counts[action] += 1
+                if cleaned:
+                    page_lines[page].append(cleaned)
+
+        page_count = int(canonical.get("page_count", 0) or 0)
+        output_path = SWEDISH_PILOT_DIR / f"{slug}.cleaned.md"
+        markdown = [f"# {slug} — cleaned Swedish pilot source", "", "<!-- generated from EDT pilot EDOM; do not edit generated file directly -->", ""]
+        for page in range(1, page_count + 1):
+            markdown.extend([f"<!-- source-page: {page:04d} -->", ""])
+            markdown.extend(page_lines.get(page, []))
+            markdown.append("")
+        output_path.write_text("\n".join(markdown), encoding="utf-8")
+
+        cleaning_sources.append({
+            "slug": slug,
+            "cleaned_markdown": _relative(output_path),
+            "page_count": page_count,
+            "suppressed_repeated_headers": counts["suppressed_repeated_header"],
+            "suppressed_stray_lines": counts["suppressed_stray_line"],
+            "normalized_bullets": counts["normalized_bullet"],
+        })
+        print(f"Wrote: {_relative(output_path)}")
+
+    report = {"source_count": len(cleaning_sources), "sources": cleaning_sources}
+    CLEANING_REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    lines = ["# HERKULES Swedish Source Cleaning Report", "", "Generated from queued EDT pilot EDOM and OCR quality findings.", ""]
+    for source in cleaning_sources:
+        lines.extend([
+            f"## {source['slug']}",
+            "",
+            f"- Cleaned Markdown: `{source['cleaned_markdown']}`",
+            f"- Pages: {source['page_count']}",
+            f"- Suppressed repeated headers/footers: {source['suppressed_repeated_headers']}",
+            f"- Suppressed stray lines: {source['suppressed_stray_lines']}",
+            f"- Normalized bullet lines: {source['normalized_bullets']}",
+            "",
+        ])
+    CLEANING_REPORT_MD.write_text("\n".join(lines), encoding="utf-8")
+    print(f"Wrote: {CLEANING_REPORT_JSON.relative_to(ROOT)}")
+    print(f"Wrote: {CLEANING_REPORT_MD.relative_to(ROOT)}")
 
 
 def main() -> int:
@@ -335,7 +417,9 @@ def main() -> int:
 
     print("EDT pilot output check passed")
     if isinstance(results, list):
-        _write_ocr_quality_report([result for result in results if isinstance(result, dict)])
+        valid_results = [result for result in results if isinstance(result, dict)]
+        sources = _write_ocr_quality_report(valid_results)
+        _write_clean_swedish_source(valid_results, sources)
         for result in results:
             print(f"- {result.get('slug')}: {result.get('source_pdf')}")
     return 0
