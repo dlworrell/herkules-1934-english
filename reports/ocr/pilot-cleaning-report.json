@@ -6,8 +6,9 @@
       "cleaned_markdown": "source/swedish/pilot/Manual-HERKULES-2015-10-16-1.cleaned.md",
       "page_count": 100,
       "suppressed_repeated_headers": 177,
+      "suppressed_embedded_page_furniture": 5,
       "suppressed_stray_lines": 2,
-      "normalized_bullets": 235
+      "normalized_bullets": 233
     }
   ]
 }

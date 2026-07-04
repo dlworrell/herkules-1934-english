@@ -13,7 +13,6 @@ Kil — Wermland - Sverige
 
 <!-- source-page: 0002 -->
 
-uv Söderström - HERKULES 1934
 Introduktion
 Tredje utgåvan, Okt 2015
 
@@ -61,13 +60,11 @@ Pelle Söderström
 
 <!-- source-page: 0005 -->
 
-huvet Söderström - HERKULES 1934
 Allmän information
 HELBILDER PÅ MOTORN. FYRA SIDOR
 
 <!-- source-page: 0006 -->
 
-huvet Söderström - HERKULES 1934
 Allmän information
 HELBILDER PÅ MOTORN. FYRA SIDOR
 
@@ -742,7 +739,6 @@ Motorns ingående delar
 
 <!-- source-page: 0035 -->
 
-- Söderström - HERKULES 1934
 Motorns ingående delar
 5.4.10 Vevstakar / Vevlager - Förfarande enligt Volvo
 Vevstakar —- Byte av Bussning
@@ -1915,7 +1911,6 @@ MER TEXT
 
 <!-- source-page: 0091 -->
 
-- Söderström - HERKULES 1934
 Motorns ingående delar
 5.11.11 Avluftningscentrifug
 MER TEXT
