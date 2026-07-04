@@ -1,0 +1,63 @@
+{
+  "source_pages": [
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/semantic.json",
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/semantic.json",
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/semantic.json"
+  ],
+  "page_count": 3,
+  "root": {
+    "id": "document",
+    "kind": "document",
+    "text": "",
+    "metadata": {
+      "source_pdf": "source/original/Manual-HERKULES-2015-10-16-1.pdf",
+      "page_range": "1-3"
+    },
+    "source_regions": [],
+    "fingerprint": "56540e310a8c1c11fa07338b3097916344044af3c8f5b40296cc8b512841cfb1",
+    "children": [
+      {
+        "id": "p0001-b0001",
+        "kind": "paragraph",
+        "text": "Verkstadshandbok\nför\n\nHERKULES\n\n1934\n\nSöderström”s Motor Werkstad\nKil — Wermland - Sverige",
+        "metadata": {},
+        "source_regions": [
+          {
+            "source_id": "primary",
+            "page": 1
+          }
+        ],
+        "fingerprint": "518f516362aa66f7ea747c0a533231054c6d0d1d6a02a36e18c6acd7b096abf3",
+        "children": []
+      },
+      {
+        "id": "p0002-b0001",
+        "kind": "paragraph",
+        "text": "uv Söderström - HERKULES 1934\nRak 16-Cylinder\nIntroduktion\n\nTredje utgåvan, Okt 2015",
+        "metadata": {},
+        "source_regions": [
+          {
+            "source_id": "primary",
+            "page": 2
+          }
+        ],
+        "fingerprint": "e2540e45665b30f4a314e59d07facaf9ee665833afa00fd9bb5ba5af5af41562",
+        "children": []
+      },
+      {
+        "id": "p0003-b0001",
+        "kind": "paragraph",
+        "text": "lr\n\nSöderström - HERKULES 1934\nP Rak 16-Cylinder\nIntroduktion\n\n”Det här har gjorts efter min bästa förmåga,\nendast det bästa är gott nog”\n\nP. Söderström",
+        "metadata": {},
+        "source_regions": [
+          {
+            "source_id": "primary",
+            "page": 3
+          }
+        ],
+        "fingerprint": "f183cc05330f08d462aa4d8f289666d9a28efc48d6815c1becee36d1f9776897",
+        "children": []
+      }
+    ]
+  }
+}

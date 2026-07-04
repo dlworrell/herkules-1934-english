@@ -1,0 +1,16 @@
+{
+  "source_queue": "reports/pilot/source-queue.json",
+  "source_count": 1,
+  "results": [
+    {
+      "index": 1,
+      "source_pdf": "source/original/Manual-HERKULES-2015-10-16-1.pdf",
+      "slug": "Manual-HERKULES-2015-10-16-1",
+      "manifest": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1.project.yml",
+      "import_report": "reports/pilot/Manual-HERKULES-2015-10-16-1/import-report.json",
+      "canonical_edom": "output/pilot/Manual-HERKULES-2015-10-16-1/edom/canonical-document.edom.json",
+      "markdown": "output/pilot/markdown/Manual-HERKULES-2015-10-16-1.md",
+      "html": "output/pilot/html/Manual-HERKULES-2015-10-16-1.html"
+    }
+  ]
+}

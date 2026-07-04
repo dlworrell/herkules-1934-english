@@ -1,0 +1,153 @@
+{
+  "manifest": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1.project.yml",
+  "source_pdf": "source/original/Manual-HERKULES-2015-10-16-1.pdf",
+  "source_exists": true,
+  "sha256": "7d73771de4807f7268a0b0a7b708a0ca7d4b3782ff96e91c13c9149ca19bb2d5",
+  "pages_dir": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages",
+  "page_range": {
+    "start": 1,
+    "end": 3
+  },
+  "pages": [
+    {
+      "page": 1,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 2,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    },
+    {
+      "page": 3,
+      "directory": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003",
+      "status": "initialized",
+      "image_status": "pending",
+      "ocr_status": "waiting_for_image",
+      "layout_status": "waiting_for_ocr",
+      "semantic_status": "waiting_for_layout",
+      "edom_status": "waiting_for_semantic"
+    }
+  ],
+  "image_results": [
+    {
+      "page": 1,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/image.png"
+    },
+    {
+      "page": 2,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/image.png"
+    },
+    {
+      "page": 3,
+      "status": "extracted",
+      "image": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/image.png"
+    }
+  ],
+  "ocr_results": [
+    {
+      "page": 1,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/ocr.json"
+    },
+    {
+      "page": 2,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/ocr.json"
+    },
+    {
+      "page": 3,
+      "status": "complete",
+      "ocr": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/ocr.json"
+    }
+  ],
+  "layout_results": [
+    {
+      "page": 1,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 2,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/layout.json",
+      "blocks": 1
+    },
+    {
+      "page": 3,
+      "status": "complete",
+      "layout": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/layout.json",
+      "blocks": 1
+    }
+  ],
+  "semantic_results": [
+    {
+      "page": 1,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 2,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    },
+    {
+      "page": 3,
+      "status": "complete",
+      "semantic": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/semantic.json",
+      "blocks": 1,
+      "relationships": 0
+    }
+  ],
+  "edom_results": [
+    {
+      "page": 1,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/edom.json",
+      "children": 1
+    },
+    {
+      "page": 2,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/edom.json",
+      "children": 1
+    },
+    {
+      "page": 3,
+      "status": "complete",
+      "edom": ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/edom.json",
+      "children": 1
+    }
+  ],
+  "document_edom": {
+    "status": "complete",
+    "document": "output/pilot/Manual-HERKULES-2015-10-16-1/edom/document.edom.json",
+    "pages": 3
+  },
+  "canonical_document_edom": {
+    "status": "complete",
+    "document": "output/pilot/Manual-HERKULES-2015-10-16-1/edom/canonical-document.edom.json",
+    "pages": 3,
+    "nodes": 3
+  },
+  "edom_output": "output/pilot/Manual-HERKULES-2015-10-16-1/edom",
+  "status": "imported"
+}

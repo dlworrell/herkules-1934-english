@@ -1,0 +1,71 @@
+{
+  "source_pages": [
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0001/edom.json",
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0002/edom.json",
+    ".edt/work/pilot/Manual-HERKULES-2015-10-16-1/pages/0003/edom.json"
+  ],
+  "page_count": 3,
+  "root": {
+    "id": "document",
+    "kind": "document",
+    "text": "",
+    "metadata": {
+      "source_pdf": "source/original/Manual-HERKULES-2015-10-16-1.pdf",
+      "page_range": "1-3"
+    },
+    "fingerprint": "2942026da664bc5cf4361fee2d17b6dc766919c2e664752bf5ea4e156d2023ce",
+    "children": [
+      {
+        "id": "page-1",
+        "kind": "page",
+        "text": "",
+        "metadata": {},
+        "fingerprint": "4b840b4c5461f1dfba17e8f87f6a5006efb691612ad98c35f5e1d9542b0d6a23",
+        "children": [
+          {
+            "id": "p0001-b0001",
+            "kind": "paragraph",
+            "text": "Verkstadshandbok\nför\n\nHERKULES\n\n1934\n\nSöderström”s Motor Werkstad\nKil — Wermland - Sverige",
+            "metadata": {},
+            "fingerprint": "518f516362aa66f7ea747c0a533231054c6d0d1d6a02a36e18c6acd7b096abf3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "page-2",
+        "kind": "page",
+        "text": "",
+        "metadata": {},
+        "fingerprint": "7e833473d8cdcecba856ee0b50edb858d4160ecfa2f40b6a4c4ed8024032d017",
+        "children": [
+          {
+            "id": "p0002-b0001",
+            "kind": "paragraph",
+            "text": "uv Söderström - HERKULES 1934\nRak 16-Cylinder\nIntroduktion\n\nTredje utgåvan, Okt 2015",
+            "metadata": {},
+            "fingerprint": "e2540e45665b30f4a314e59d07facaf9ee665833afa00fd9bb5ba5af5af41562",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "page-3",
+        "kind": "page",
+        "text": "",
+        "metadata": {},
+        "fingerprint": "9244c3b8fcc691531d436fb9fa75a1d7f9050e7f47207e0afbef6d66ac0d3c49",
+        "children": [
+          {
+            "id": "p0003-b0001",
+            "kind": "paragraph",
+            "text": "lr\n\nSöderström - HERKULES 1934\nP Rak 16-Cylinder\nIntroduktion\n\n”Det här har gjorts efter min bästa förmåga,\nendast det bästa är gott nog”\n\nP. Söderström",
+            "metadata": {},
+            "fingerprint": "f183cc05330f08d462aa4d8f289666d9a28efc48d6815c1becee36d1f9776897",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
