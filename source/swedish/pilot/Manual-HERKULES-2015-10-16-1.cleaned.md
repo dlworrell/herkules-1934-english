@@ -1,6 +1,6 @@
-# Manual-HERKULES-2015-10-16-1 — cleaned Swedish pilot source
+# Manual-HERKULES-2015-10-16-1 — preserved Swedish pilot source
 
-<!-- generated from EDT pilot EDOM; do not edit generated file directly -->
+<!-- generated from EDT pilot EDOM; all OCR text lines are preserved; review candidates are reported separately -->
 
 <!-- source-page: 0001 -->
 
@@ -13,11 +13,15 @@ Kil — Wermland - Sverige
 
 <!-- source-page: 0002 -->
 
+uv Söderström - HERKULES 1934
+Rak 16-Cylinder
 Introduktion
 Tredje utgåvan, Okt 2015
 
 <!-- source-page: 0003 -->
 
+lr
+Söderström - HERKULES 1934
 P Rak 16-Cylinder
 Introduktion
 ”Det här har gjorts efter min bästa förmåga,
@@ -26,6 +30,9 @@ P. Söderström
 
 <!-- source-page: 0004 -->
 
+lr
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Introduktion
 1 Introduktion - Herkules 1934
 En historia om att bygga en bil som vore den från 30-talet, med en
@@ -60,28 +67,34 @@ Pelle Söderström
 
 <!-- source-page: 0005 -->
 
+huvet Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 HELBILDER PÅ MOTORN. FYRA SIDOR
 
 <!-- source-page: 0006 -->
 
+huvet Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 HELBILDER PÅ MOTORN. FYRA SIDOR
 
 <!-- source-page: 0007 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 2 Allmän information
 2.1 Herkules 1934 —- Specifikation:
-- Motor Typ Rak
-- Antal cylindrar 16
-- Cylindervolym, Liter 8,1
+e Motor Typ Rak
+.« Antal cylindrar 16
+.« Cylindervolym, Liter 8,1
 Kubiktum 494
-- Drivmedel Ethanol/Bensin
-- Antal karburatorer, Fabrikat 4 / Zenith Stromberg
-- Antal Distributorer 2
-- Längd: Tryckplatta - Främre remskiva 2464 mm
-- Vikt: Inkl. Kylfläkt, Dynamo, Svänghjul,
+ee Drivmedel Ethanol/Bensin
+« Antal karburatorer, Fabrikat 4 / Zenith Stromberg
+. Antal Distributorer 2
+« Längd: Tryckplatta - Främre remskiva 2464 mm
+e Vikt: Inkl. Kylfläkt, Dynamo, Svänghjul,
 Startmotorer, Karburatorer, Kylvätska
 samt Smörjolja xxx Kilogram
 2.2 Reparation - Kunskapsnivå
@@ -94,6 +107,8 @@ motorkunskap.
 
 <!-- source-page: 0008 -->
 
+15 Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 2.3 Reparation - Arbetsmetoder
 Jag har här tagit mig friheten att i omarbetad form citera valda stycken ur
@@ -135,18 +150,19 @@ C. Borgenstam
 
 <!-- source-page: 0009 -->
 
-- Söderström - HERKULES 1934
+. Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 2.4 Märkning av komponenter
 En stor del av motorns komponenter är märkta med elektrisk gravyrpenna
 för att kunna monteras på rätt plats. En del av märkningarna syns dåligt,
 men kan upptäckas om detaljen hålls så att ljuset falla in över ytan.
 Märkningen följa nedanstående system:
-- Cylindrarna räknas från framändan av motorn med cylinder 1, mot
+e Cylindrarna räknas från framändan av motorn med cylinder 1, mot
 bakändan där de avslutas med cylinder 16.
-- Motorblock är märkta från framändan med första blocket som 1-4, andra
+e Motorblock är märkta från framändan med första blocket som 1-4, andra
 blocket som 5-8 osv refererande till cylindernumret.
-- Motorblocken har även bokstavsförkortningar vilka hänvisa till de platser
+e Motorblocken har även bokstavsförkortningar vilka hänvisa till de platser
 de ursprungligen komma från. (1-4/PLE, 5-8/LSE, 9-12/ANL, 13-16/TRE
 Ett antal detaljer är märkta framifrån och avslutas efter det antal av
 ingående detaljer som förekomma. Som exempel kan nämnas Styrpinnar
@@ -165,6 +181,7 @@ märkta från motorns Höger/Vänster, ej montörens.
 
 <!-- source-page: 0010 -->
 
+15 Söderström - HERKULES 1934
 | Rak 16-Cylinder
 Allmän information
 2.5 Skruvar —- Hållfasthetsklass
@@ -192,6 +209,8 @@ rutor med gul text.
 
 <!-- source-page: 0011 -->
 
+15 Söderström - HERKULES 1934
+Rak 16-Cylinder
 Allmän information
 2.9 Enheter
 De Enheter som användas för att mäta storheter i denna manual är en
@@ -215,6 +234,7 @@ moment och dylikt, se under respektive delavsnitt.
 <!-- source-page: 0012 -->
 
 hud Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motoreffekt - Vridmoment
 3 Motoreffekt - Vridmoment
 3.1 Effektkurvor
@@ -235,15 +255,17 @@ Kom prönsl öra fr «see een SENS ATEN orarafen felörgin 8,7 9,5
 
 <!-- source-page: 0013 -->
 
+» Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motoreffekt - Vridmoment
 3.2 Herkules 1934 - Effekt:
 Som synes av ovanstående specifikationer utveckla B20A-motorn i
 originalutförande 90hk SAE. Följande förändringar är genomförda för
 Herkules 1934:
-- - Planad ovansida av Motorblock
-- Planad undersida av Cylinderlock
-- -Tunnare Cylinderlockspackning
-- - Insugsventiler såsom B20B, alltså M44mm (Isf M42mm)
+.« - Planad ovansida av Motorblock
+.«  Planad undersida av Cylinderlock
+e -Tunnare Cylinderlockspackning
+e - Insugsventiler såsom B20B, alltså M44mm (Isf M42mm)
 e« Dubbla Distributorer å S0kV samt IRIDIUM Tändstift
 Ett antagande kan sålunda vara i sin fulla rimlighet att vardera Motorblock
 utveckla ca 105 hästkrafter.
@@ -264,6 +286,7 @@ Sålunda skola Herkules 1934 utveckla:
 <!-- source-page: 0014 -->
 
 hueet! Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motoreffekt - Vridmoment
 3.3 Effekt- / Momentkurva B20 A
 14
@@ -271,6 +294,8 @@ Motoreffekt - Vridmoment
 <!-- source-page: 0015 -->
 
 lid
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Bottenram - Stomme
 4 - Bottenram - Tråg / Stomme
 4.1 Svetsat Tråg - Stomme
@@ -289,6 +314,8 @@ fyllts med ljuddämpande polyurethane-skum. Detta i form av trälim.
 
 <!-- source-page: 0016 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Bottenram - Stomme
 För egna anteckningar:
 16
@@ -296,6 +323,8 @@ För egna anteckningar:
 <!-- source-page: 0017 -->
 
 för of
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5 - Motorns ingående delar
 5.1 Motorblock Volvo B20 - Information
@@ -315,6 +344,8 @@ motorn var hedersdoktor Per Gillbrand.
 
 <!-- source-page: 0018 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.2 Motorblock Herkules 1934 - Information
 Blocken har borrats till Volvos 3e överdimension (Z89,66-289,67 mm)
@@ -339,6 +370,8 @@ tum-gängor. UNC (Unified Coarse) samt UNF (Unified Fine)
 
 <!-- source-page: 0019 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.2.1 Uppmätta Cylindermått
 Nedan följa en tabell med de cylindermått som uppmätts efter bearbetning
@@ -372,12 +405,16 @@ Mykå AB.
 
 <!-- source-page: 0020 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 För egna anteckningar:
 20
 
 <!-- source-page: 0021 -->
 
+pos Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3 Cylinderlock
 5.3.1 Cylinderlock - Allmän information
@@ -409,11 +446,13 @@ Tillse att oljekanalen är fri. Styrpinnar för Packning samt Cylinderlock
 <!-- source-page: 0022 -->
 
 ll
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Dragning av Cylinderlock skall ske i tre steg enligt följande:
-- 1:a dragningen, enligt ordning beskrivet nedan 3kpm +/-0,5 kpm
-- 2:a dragningen, 6kpm +/-0,5 kpm
-- 3:e dragningen, 9I9kpm +/-0,5 kpm
+. 1:a dragningen, enligt ordning beskrivet nedan 3kpm +/-0,5 kpm
+e 2:a dragningen, 6kpm +/-0,5 kpm
+. 3:e dragningen, 9I9kpm +/-0,5 kpm
 7 3 1
 SH | I
 OO
@@ -434,10 +473,12 @@ för den slinga vilken är aktiverad vid kall motor.
 
 <!-- source-page: 0023 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3.4 Packningar vid Cylinderlock - Herkules 1934:
-- - Cylinderlockspackning 1,2mm - KG-Trimning
-- Tätning mellan Cylinderlock och Mellanstycke - LocTite SI 5910
+e - Cylinderlockspackning 1,2mm - KG-Trimning
+. - Tätning mellan Cylinderlock och Mellanstycke - LocTite SI 5910
 5.3.5 Vipparmsbryggor
 Vipparmsbryggor —- Allmän information
 Kompletta Vipparmsbryggor är hämtade från 4 olika motorer vars gångtid
@@ -467,6 +508,8 @@ Utdrag ur Ståhl motor
 
 <!-- source-page: 0024 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3.6 Ventiler
 Ventiler - Allmän information
@@ -474,33 +517,35 @@ Ventilerna till Herkules 1934 är av fabrikat Intervalves, levererade
 tillsammans med Ventilstyrningar av KG-Trimning AB i Södra Sandby.
 Ventillåsen är försedda med tre bommar och ventilskaften med motsvarande
 spår, vilket hålla Ventilen men ger möjlighet till lämplig rotation.
-- Valve inlet +IVS+ 41403.032 InterValves
+. Valve inlet +IVS+ 41403.032 InterValves
 Valve outlet +IVS+ £1179.036
 Specifikation Inloppsventil:
 InterValves
 KG Trimning AB
 KG Trimning AB
-- Tallriksdiameter 44mm
-- - Spindeldiameter 7,955 - 7,970mm
-- Ventilens sätesvinkel 44,52
-- Cylinderlockets sätesvinkel 452
-- Sätets bredd i Cylinderlocket 2mm
-- Ventilspel, såväl varm som kall motor 0,40 - 0,45mm
-- Förslitningstolerans Ventilspindel / Styrning: 0,15mm
-- Ventilspindel, tillåten förslitning Max 0,02mMmm
+.  Tallriksdiameter 44mm
+« - Spindeldiameter 7,955 - 7,970mm
+. - Ventilens sätesvinkel 44,52
+«  Cylinderlockets sätesvinkel 452
+. - Sätets bredd i Cylinderlocket 2mm
+e  Ventilspel, såväl varm som kall motor 0,40 - 0,45mm
+. - Förslitningstolerans Ventilspindel / Styrning: 0,15mm
+e  Ventilspindel, tillåten förslitning Max 0,02mMmm
 Specifikation Utloppsventil:
-- Tallriksdiameter 35mm
-- - Spindeldiameter 7,925 - 7,940mm
-- Ventilens sätesvinkel 44,52
-- Cylinderlockets sätesvinkel 452
-- Sätets bredd i Cylinderlocket 2mm
-- Ventilspel, såväl varm som kall motor 0,40 - 0,45mm
-- Förslitningstolerans Ventilspindel / Styrning: 0,15mm
-- Ventilspindel, tillåten förslitning Max 0,02mMmm
+.  Tallriksdiameter 35mm
+« - Spindeldiameter 7,925 - 7,940mm
+. - Ventilens sätesvinkel 44,52
+«  Cylinderlockets sätesvinkel 452
+. - Sätets bredd i Cylinderlocket 2mm
+e  Ventilspel, såväl varm som kall motor 0,40 - 0,45mm
+. - Förslitningstolerans Ventilspindel / Styrning: 0,15mm
+e  Ventilspindel, tillåten förslitning Max 0,02mMmm
 24
 
 <!-- source-page: 0025 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Ventilsätesbredd. A= 2mm
 Bild 29. Ventillåsning och ventilstyrningstätning
@@ -521,6 +566,8 @@ justeras det Cylinderlockets ventiler nummer: 4, 6, 7 samt 8.
 <!-- source-page: 0026 -->
 
 MORE
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3.8
 För att enklast justera ventilerna för Herkules 1934 kan följande system
@@ -543,22 +590,24 @@ Vevaxelgrader: Justera ventil nr: Anmärkning
 
 <!-- source-page: 0027 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3.10 Ventilstyrningar
 Ventilstyrningar - Allmän information
 Ventilstyrningar är monterade i Cylinderlocket med presspassning, Vid
 inpressning har använts sk ”grisfett” vilket troligen är samma sak som Ister.
 Styrningar är tillverkade av gråjärn.
-- Ventilstyrning Inlopp 011317 1M1 Metelli KG Trimning AB
-- Ventilstyrning Utlopp 011318 1F2 Metelli KG Trimning AB
+. - Ventilstyrning Inlopp 011317 1M1 Metelli KG Trimning AB
+. - Ventilstyrning Utlopp 011318 1F2 Metelli KG Trimning AB
 Specifikation Ventilstyrning:
 Enligt Volvo
-- Längd ventilstyrning för Inloppsventil 52mm
-- Längd ventilstyrning för Utloppsventil S59mm
-- Innerdiameter 8,000 - 8,022
-- - Höjd över lockets övre plan 17,5mm
-- Spel, Ventilspindel - Styrning, Inloppsventil 0,030 - 0,067
-- Utloppsventil 0,060 —- 0,067
+« Längd ventilstyrning för Inloppsventil 52mm
+« Längd ventilstyrning för Utloppsventil S59mm
+. Innerdiameter 8,000 - 8,022
+« - Höjd över lockets övre plan 17,5mm
+. Spel, Ventilspindel - Styrning, Inloppsventil 0,030 - 0,067
+. - Utloppsventil 0,060 —- 0,067
 Brotschdiameter för ventilstyrning enligt KG Trimning AB 7,99 —- 8,00.
 Vid jämförelse med Volvos specifikation torde Brotsch 08 H7 (8,00 -
 8,015) vara lämpligare.
@@ -569,11 +618,13 @@ med mätur, icke överstiga 0,15mm
 
 <!-- source-page: 0028 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.3.11 Ventilfjädrar
-- Längd: Ventilfjädrar utan belastning ca 46mm
-- Ventilfjädrar med 29,5 +/- 2,3 kp belastning ca 40mm
-- Ventilfjädrar med 82,5 +/- 4,3 kp belastning ca 30mm
+. Längd: Ventilfjädrar utan belastning ca 46mm
+. Ventilfjädrar med 29,5 +/- 2,3 kp belastning ca 40mm
+. Ventilfjädrar med 82,5 +/- 4,3 kp belastning ca 30mm
 Vid inspektion samt kontrollmätning har ingen av Herkules 1934”s
 uppmätta Ventilfjädrar uppvisat något som helst tecken på defekt.
 5.3.12 Ventilsäten
@@ -587,7 +638,7 @@ att Inloppsventilerna hela tiden kyles av den inkommande bränsle-
 /luftblandningen.
 Byte av ventilsäten samt fräsning och planslipning av Cylinderlocket, har
 utförts av motorrenoveringsfirman LJ Trim AB.
-- Ventilsäte SBI 1008B-1417E-1 227/36x9 — LJ Trim AB
+. Ventilsäte SBI 1008B-1417E-1 227/36x9 — LJ Trim AB
 Monteringsförlopp:
 Ventilsätet har vid montaget givits presspassning å 0,15 - 0,17 mm. Inför
 pressningen har detaljerna bestrukits med LocTite 128 467, detta för att
@@ -599,6 +650,8 @@ renoveringsfirman LJ Trim AB.
 
 <!-- source-page: 0029 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.4 Vevaxlar, Vevstakar
 5.4.1 Vevaxel —- Allmän information
@@ -608,44 +661,48 @@ styrlager i axiell led. Genom axeln finnes borrade kanaler för distribution av
 smörjolja. Axeln är av synnerligen kraftig konstruktion.
 5.4.2 Vevaxel - Specifikation
 Vevaxel
-- - Vevaxel, Axialspel 0,047 - 0,138
-- Vevlager, Radialspel 0,039 - 0,081
-- Ramlager, Radialspel 0,038 - 0,089
+e - Vevaxel, Axialspel 0,047 - 0,138
+. Vevlager, Radialspel 0,039 - 0,081
+.  Ramlager, Radialspel 0,038 - 0,089
 Ramlagertappar på vevaxel
-- Diameter, Standard 63,441 - 63,454
-- Underdimension 0,010” 63,187 - 63,200
-- Underdimension 0,020” 62,933 - 62,946
+. Diameter, Standard 63,441 - 63,454
+. Underdimension 0,010” 63,187 - 63,200
+. Underdimension 0,020” 62,933 - 62,946
 29
 
 <!-- source-page: 0030 -->
 
 a
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Breddmått på Vevaxel för flänslagerskål
-- Standard
+. Standard
 e« Överdimension 1 (Underdimension, skål 0,010”)
-- 2 (Underdimension, Skål 0,020”)
+. 2 (Underdimension, Skål 0,020”)
 Breddmått för Styrlager.
 Ramlagerskålar
 38,930 - 38,970
 39,031 - 39,072
 39,133 - 39,173
-- Tjocklek, Standard 1,985 - 1,991
-- Underdimension 0,010” 2,112 - 2,118
-- Underdimension 0,020” 2,239 - 2,245
+. Tjocklek, Standard 1,985 - 1,991
+. Underdimension 0,010” 2,112 - 2,118
+. Underdimension 0,020” 2,239 - 2,245
 Mått för Vevlagertappar, se Vevstakar
 5.4.3 Vevaxel - Åtdragningsmoment
-- Ramlager 12 - 13 kilopondmeter
+. Ramlager 12 - 13 kilopondmeter
 Åtdragningsmoment i övrigt, se under respektive avsnitt
 30
 
 <!-- source-page: 0031 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.4.4 Vevaxel —- Förslitningstolerans
-- Tillåten ovalitet för Ramlagertappar, max 0,05mm
-- Tillåten konisitet, max 0,05mm
-- Axialspel för Vevaxel, max 0,15mm
+. Tillåten ovalitet för Ramlagertappar, max 0,05mm
+e Tillåten konisitet, max 0,05mm
+e  Axialspel för Vevaxel, max 0,15mm
 För Vevlagertappar, se Vevstakar / Vevtappar
 5.4.5 -Vevaxel: Ram- Vevlager - Förfarande enligt Volvo
 Vevaxel
@@ -669,6 +726,8 @@ erhållas tillsammans med de färdiga lagerskålarna.
 
 <!-- source-page: 0032 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Radierna vid Tapparnas ändar skall vara 2,0-2,5mm för samtliga Tappar
 Breddmåttet (A) för Styrlagret är beroende av tappens dimension och slipas
@@ -689,6 +748,8 @@ Se specifikation för uppgifter om åtdragningsmoment.
 
 <!-- source-page: 0033 -->
 
+» Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.4.6 Vevstakar / Vevtappar - Allmän information
 Vevstakarna av hejarsmitt stål är försedda med en finbearbetad bussning
@@ -696,49 +757,53 @@ för kolvtappen. I Herkules 1934 är dock ej bussningarna utbytta och sålunda
 uppvisa ett mindre glapp.
 5.4.7 Vevstakar / Vevtappar - Specifikation
 Vevstakar
-- -Vevstakar, axialspel mot vevaxel 0,15 - 0,35
-- -Vevstakar, längd centrum-centrum 145 +/-0,1
-- — Största tillåtna viktskillnad mellan vevstakar 6 gram
+. -Vevstakar, axialspel mot vevaxel 0,15 - 0,35
+. -Vevstakar, längd centrum-centrum 145 +/-0,1
+e — Största tillåtna viktskillnad mellan vevstakar 6 gram
 Vevlagertappar
-- Lagerlägets breddmått 31,950 - 32,050
-- Diameter, Standard 54,089 - 54,102
-- Underdimension 0,010” 53,835 - 53,848
-- Underdimension 0,020” 53,581 - 53,594
+«  Lagerlägets breddmått 31,950 - 32,050
+. Diameter, Standard 54,089 - 54,102
+. Underdimension 0,010” 53,835 - 53,848
+. Underdimension 0,020” 53,581 - 53,594
 Vevlagerskålar
-- Tjocklek, Standard 1,833 - 1,841
-- Underdimension 0,010” 1,960 - 1,968
-- Underdimension 0,020” 2,087 - 2,095
+. Tjocklek, Standard 1,833 - 1,841
+. Underdimension 0,010” 1,960 - 1,968
+. Underdimension 0,020” 2,087 - 2,095
 Vevstakar - Åtdragningsmoment
-- Vevstaksöverfall 5,2 - 5,8 kpm
+e Vevstaksöverfall 5,2 - 5,8 kpm
 Åtdragningsmoment i övrigt, se under respektive avsnitt
 33
 
 <!-- source-page: 0034 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.4.8 Vevtappar - Förslitningstolerans
-- Tillåten ovalitet för Vevlagertappar, max 0,07 mm
+. Tillåten ovalitet för Vevlagertappar, max 0,07 mm
 5.4.9 Vevstakar Herkules 1934
-- Cylinder 1 148 Symbol: Oval ring med horisontalt streck
-- Cylinder 2 102 Oval ring med horisontalt streck
-- Cylinder 3 149 Oval ring med horisontalt streck
-- Cylinder 4 121 Oval ring med horisontalt streck
-- Cylinder 5 145 Oval ring med horisontalt streck
-- Cylinder 6 145 Oval ring med horisontalt streck
-- Cylinder 7 107 Oval ring med horisontalt streck
-- Cylinder 8 107 Oval ring med horisontalt streck
-- Cylinder 9 108 Oval ring med horisontalt streck
-- Cylinder 10 141 Oval ring med horisontalt streck
-- Cylinder 11 137 Oval ring med horisontalt streck
-- Cylinder 12 88 Oval ring med horisontalt streck
-- Cylinder 13 312 B, med horisontell pil. (Bofors)
-- - Cylinder 14 104 B, med horisontell pil. (Bofors)
-- Cylinder 15 312 B, med horisontell pil. (Bofors)
-- Cylinder 16 312 B, med horisontell pil. (Bofors)
+.« Cylinder 1 148 Symbol: Oval ring med horisontalt streck
+.« Cylinder 2 102 Oval ring med horisontalt streck
+.« Cylinder 3 149 Oval ring med horisontalt streck
+.« Cylinder 4 121 Oval ring med horisontalt streck
+.« Cylinder 5 145 Oval ring med horisontalt streck
+.« Cylinder 6 145 Oval ring med horisontalt streck
+.« Cylinder 7 107 Oval ring med horisontalt streck
+.« Cylinder 8 107 Oval ring med horisontalt streck
+.« Cylinder 9 108 Oval ring med horisontalt streck
+.« Cylinder 10 141 Oval ring med horisontalt streck
+.« Cylinder 11 137 Oval ring med horisontalt streck
+.« Cylinder 12 88 Oval ring med horisontalt streck
+.« Cylinder 13 312 B, med horisontell pil. (Bofors)
+« - Cylinder 14 104 B, med horisontell pil. (Bofors)
+.« Cylinder 15 312 B, med horisontell pil. (Bofors)
+.« Cylinder 16 312 B, med horisontell pil. (Bofors)
 34
 
 <!-- source-page: 0035 -->
 
+ee Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.4.10 Vevstakar / Vevlager - Förfarande enligt Volvo
 Vevstakar —- Byte av Bussning
@@ -757,6 +822,8 @@ Bild 36. Kolvtappens passning Bild 37. Kontroll av vevstake
 
 <!-- source-page: 0036 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Kolvtappar
 Kolvtappar finnes i överdimension 0,05 mm Större än standarddimensionen
@@ -770,6 +837,8 @@ Bild 35, Byte av bussning, vevstake
 
 <!-- source-page: 0037 -->
 
+s Söderström - HERKULES 1934
+MprMrsn Rak 16-Cylinder
 Motorns ingående delar
 5.5 Kamaxlar, Kamaxeldrev
 5.5.1 Kamaxlar, Kamaxeldrev —- Allmän information
@@ -785,108 +854,120 @@ direkt till Ventilerna. Inspektionsluckor finnes ej, Ventillyftarna är åtkomli
 uppifrån sedan Cylinderlocken avlägsnats.
 5.5.2 Kamaxeldrev på vevaxel
 Noteringar för ståldrev:
-- Vevaxlar 5-8, 9-12 samt 13-16 är kapade ca 20mm. Detta berodde på
+e Vevaxlar 5-8, 9-12 samt 13-16 är kapade ca 20mm. Detta berodde på
 en tidigare konstruktionslösning där detta krävdes. Senare utförande
 kräva icke denna kapning. Alltså, om Vevaxel i framtiden behöva bytas,
 tex pga skärning, kunna detta utföras utan att densamma behöva kapas.
 Dock måste då skruven för Kamdrevet bytas.
-- Skruv UNF 9/16” för ovanstående kamdrev är kapade och märkta i
+« Skruv UNF 9/16” för ovanstående kamdrev är kapade och märkta i
 änden på grund av olika längd.
-- Brickor är tillverkade av stål SS2541, samt märkta på insidan med
+e Brickor är tillverkade av stål SS2541, samt märkta på insidan med
 respektive vevaxelnummer.
-- Åtdragningsmoment 7 - 8 kilopondmeter.
-- LocTite 270 Stark för skruvar i Vevaxlar 5-8, 9-12 samt 13-16. EJ
+«  Åtdragningsmoment 7 - 8 kilopondmeter.
+. LocTite 270 Stark för skruvar i Vevaxlar 5-8, 9-12 samt 13-16. EJ
 Loctite för främre drev vars skruv även hålla remskiva.
 37
 
 <!-- source-page: 0038 -->
 
 lid
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.5.3 Kamaxel - Specifikation
 Kamaxel
-- Kamaxel, märkning B20A A
-- Kamaxel, typnummer 1000074
-- Antal lager 3
-- Främre lagertapp, Diameter 46,975 - 47,000
-- Mellersta lagertapp, Diameter 42,975 - 43,000
-- Bakre lagertapp, Diameter 36,975 - 37,000
-- Radialspel 0,020 - 0,075
-- Axialspel 0,020 - 0,060
-- Ventilspel för kontroll av kamaxelinställning (kall motor) — 1,1mm
-- Inloppsventilen skall då öppna vid 102 eöd
+. Kamaxel, märkning B20A A
+. Kamaxel, typnummer 1000074
+. Antal lager 3
+. Främre lagertapp, Diameter 46,975 - 47,000
+. Mellersta lagertapp, Diameter 42,975 - 43,000
+. Bakre lagertapp, Diameter 36,975 - 37,000
+. Radialspel 0,020 - 0,075
+. Axialspel 0,020 - 0,060
+. Ventilspel för kontroll av kamaxelinställning (kall motor) — 1,1mm
+. Inloppsventilen skall då öppna vid 102 eöd
 Kamaxellager
-- Främre lager, Diameter 47,020 - 47,050
-- Mellersta lager, Diameter 43,025 - 43,050
-- Bakre lager, Diameter 37,020 - 37,045
+. Främre lager, Diameter 47,020 - 47,050
+. Mellersta lager, Diameter 43,025 - 43,050
+. Bakre lager, Diameter 37,020 - 37,045
 38
 
 <!-- source-page: 0039 -->
 
 rf
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Kamhjul
-- Vevaxel-kugghjul, kuggantal 21
-- Kamaxel-Kugghjul, (av fiber) kuggantal 42
-- Kuggflankspel (Mätes med mätur såsom kronhjul) 0,04 - 0,08
+. Vevaxel-kugghjul, kuggantal 21
+. Kamaxel-Kugghjul, (av fiber) kuggantal 42
+. Kuggflankspel (Mätes med mätur såsom kronhjul) 0,04 - 0,08
 Ventillyftare
-- Ventillyftare EV-513 Dubbelhärdade KG Trimning
+. Ventillyftare EV-513 Dubbelhärdade KG Trimning
 39
 
 <!-- source-page: 0040 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 För egna anteckningar:
 40
 
 <!-- source-page: 0041 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.6 Kolvar —- Allmän beskrivning
 I Herkules 1934 sitter Kolvar från Tyska Mahle. Sedan 1920-talet har de
 tillverkat Kolvar av aluminium och får nog anses vara en av världens i
 särklass mest kvalitativa när det gäller denna produkt.
 5.6.1 För Herkules 1934 gäller följande:
-- Kolvar Mahle 037 31 02 (3e överdimension) GETE 91509 0,75
+. Kolvar Mahle 037 31 02 (3e överdimension) GETE 91509 0,75
 5.6.2 Kolvar —- Specifikation enligt Volvo
 Kolv
-- Material Lättmetall
-- Vikt 500 +/- 5 gr
-- Tillåten viktskillnad mellan kolvar i samma block 10 gr
-- - Höjd, total 71 mm
-- Höjd, kolvtappcentrum till kolvtopp 46 mm
-- Kolvspel 0,02 - 0,04
+. Material Lättmetall
+. Vikt 500 +/- 5 gr
+e Tillåten viktskillnad mellan kolvar i samma block 10 gr
+.« - Höjd, total 71 mm
+« Höjd, kolvtappcentrum till kolvtopp 46 mm
+. - Kolvspel 0,02 - 0,04
 Kolvringar
-- Kolvringgap mätt i ringens öppning 0,40 —- 0,55
+. - Kolvringgap mätt i ringens öppning 0,40 —- 0,55
 e« Överdimension kolvringar 0,030”
 41
 
 <!-- source-page: 0042 -->
 
 lid
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Kompressionsringar
-- - Märkta ”TOPP”, Övre ringen förkromad
-- Antal på varje kolv 2
-- Höjd 1,98 mm
-- Kolvringspel i spår 0,045 —- 0,072
+e - Märkta ”TOPP”, Övre ringen förkromad
+e Antal på varje kolv 2
+. Höjd 1,98 mm
+e  Kolvringspel i spår 0,045 —- 0,072
 Oljering
-- Antal på varje kolv 1
-- Höjd 4,74 mm
-- - Kolvringspel i spår 0,045 —- 0,072
+e Antal på varje kolv 1
+. Höjd 4,74 mm
+« - Kolvringspel i spår 0,045 —- 0,072
 Kolvtapp
-- Flytande lagrad. Låsring i båda ändar av kolven.
+« Flytande lagrad. Låsring i båda ändar av kolven.
 e«  Passning i vevstake: Lätt tumtryck, noggrant löpande passning
 e«  Passning i kolv: Lätt tumtryck, noggrant löpande passning
-- Diameter, Standard 22,00
-- Överdimension 22,05
+. Diameter, Standard 22,00
+. Överdimension 22,05
 Mätning av kolvar
-- Mätning av Kolvar skall ske 2,5mm från kolvens nederkant, samt
+. - Mätning av Kolvar skall ske 2,5mm från kolvens nederkant, samt
 vinkelrätt mot kolvtappshålet.
 42
 
 <!-- source-page: 0043 -->
 
+est Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.6.3 Kolvar - Förfarande enligt Volvo
 Hopsättning och montering av Kolv och Vevstake
@@ -906,6 +987,8 @@ Bild 38. Märkning av kolv och block
 
 <!-- source-page: 0044 -->
 
+po Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Passning av Kolvringar
 I nytt eller nyborrat cylinderlopp
@@ -923,6 +1006,7 @@ emedan cylinderloppen där har sin minsta diameter.
 <!-- source-page: 0045 -->
 
 st Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingaende delar
 5.7 Mellanstycken mellan Block
 5.7.1 Mellanstycken - Allmän information
@@ -954,6 +1038,8 @@ mm.
 <!-- source-page: 0046 -->
 
 fö. dl
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.7.2 Mellanstycken - Uppbyggnad
 Huvudkropp
@@ -981,6 +1067,7 @@ tillverkning.
 <!-- source-page: 0047 -->
 
 et Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Anslutningar, Kylvattenrör.
 Efter att rören svetsats mot 20mm plåten är
@@ -997,6 +1084,8 @@ mot Cylinderlocket.
 <!-- source-page: 0048 -->
 
 för. dd
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.7.3 Skapande av tätningsyta mot framförvarande Block.
 Mellanstyckens tätningsyta mot framförvarande Motorblock har skapats
@@ -1014,7 +1103,7 @@ skruvhålen när Mellanstycket sedermera skruvas fast.
 På främre Motorblock har fästs en 1,5mm Plåtremsa med dubbel-
 häftande tejp. Området omkring samt skruvar har bestrykts med
 Omegafett.
-- Mellanstycket samt Plåtremsan har spacklats upp med LocTite 3478
+. Mellanstycket samt Plåtremsan har spacklats upp med LocTite 3478
 kemisk metall. Hård inspackling i båda detaljers blästrade ytor.
 Bakre Motorblock med påmonterat Mellanstycke pressades försiktigt,
 men med kraft mot främre Motorblock.
@@ -1027,6 +1116,7 @@ nödvändiga slipningar utfördes.
 <!-- source-page: 0049 -->
 
 uu Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.7.4 Mellanstycken - Gummidämpning , ” Vade retro”
 Vade retro är latin och betyder ”gå bakåt”, och det är precis vad som fått
@@ -1049,6 +1139,7 @@ Ad acta!
 <!-- source-page: 0050 -->
 
 - Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.7.5 Test av SuperFix
 Långtidstest av Casco SuperFix i varmt oljebad.
@@ -1056,7 +1147,7 @@ Efter att ha konsulterat expertis vid Cascos tekniska support, och där över
 tid fått motstridiga uppgifter, beslutades att utföra ett långtidstest för att
 utröna om fallet med SuperFixets lösningsbenägenhet är adekvat eller ej.
 Data:
-- — Provbitar tagna ur demonterade bitar från Mellanstycken.
+e — Provbitar tagna ur demonterade bitar från Mellanstycken.
 e« — Osäkerhet beträffande det ohärdade SuperFixets ålder råder.
 Test nr: | Temperatur Tid Motv. mil vid Anmärkning:
 50km/t
@@ -1066,6 +1157,8 @@ Test nr: | Temperatur Tid Motv. mil vid Anmärkning:
 
 <!-- source-page: 0051 -->
 
+est Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Iakttagelser efter Test 1:
 Efter att ha utfört testet under så många timmar under fyra månader kan
@@ -1086,6 +1179,8 @@ anses möjligt, genom att demontera Transmissionsplåten för inspektion.
 <!-- source-page: 0052 -->
 
 förd
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.7.6 Mellanstycken - Dämpning i bakre Registerkåpa
 Efter att ha utfört ett långtidstest beträffande SuperFix förmåga att
@@ -1110,6 +1205,8 @@ av Blocket.
 
 <!-- source-page: 0053 -->
 
+est Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Mellanstycken - Gummidämpning bakre Registerkåpa
 Svetsskarvar har målats med tvåkomponents epoxifärg, hålad plåt har
@@ -1122,6 +1219,7 @@ SKRIV OM DE FÖRSÄNKTA SKRUVAR SOM NITATS!!!
 <!-- source-page: 0054 -->
 
 eat Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.7.7 Mellanstycken - Monteringsförfarande
 Mellanstycke av den typ som sitter
@@ -1134,34 +1232,38 @@ Registerkåpan.
 
 <!-- source-page: 0055 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Mellanstycken - Monteringsförfarande
 Steg 1) Montera Mellanstycke mot framförvarande Motorblock
-- Mellanstycket skall monteras mot främre Motorblock innan
+. - Mellanstycket skall monteras mot främre Motorblock innan
 Vevaxeln monteras på plats.
 e« — Rengör Mellanstyckets stålspacklade tätningsyta, samt den yta på
 Motorblocket där normalt bakre vevaxeltätning sitter.
 e« Placera Motorblocket på Tråget, fäst det tillfälligt med de två
 2Z14mm styrpinnar samt ett par montageskruvar.
-- Stryk på ett tunt lager motorsilikon, typ: LocTite 5910.
+. Stryk på ett tunt lager motorsilikon, typ: LocTite 5910.
 Observera! Med för tjockt lager motorsilikon försvåras montaget.
-- Skjut aktuellt Mellanstycke på plats längs med Tråget. Förvissa
+ee Skjut aktuellt Mellanstycke på plats längs med Tråget. Förvissa
 dig om att Mellanstycket inte lyfts, utan att det hela tiden har
 kontakt med Tråget. I annat fall försvåras vidare montage, och
 det kan bli problem med tätningen mellan Tråg och Mellanstycke.
-- Montera och drag växelvis de 6st UNC1/4" skruvar som hålla
+« Montera och drag växelvis de 6st UNC1/4" skruvar som hålla
 Mellanstycket. MAX ikpm (10Nm). Använd LocTite Medel
 som skruvlåsning. Skruva inte för hårt, då kan metallspacklet
 spricka. — Observera! Läs montageanvisningen för motorsilikonet.
-- Lossa de tillfälliga montageskruvarna samt Z14mm styrpinnarna.
+. Lossa de tillfälliga montageskruvarna samt Z14mm styrpinnarna.
 Lyft den monterade enheten försiktigt och placera den på lämplig
 plats inför kommande montage av Vevaxel, Kolvar mm.
-- - Upprepa förfarandet med övriga Mellanstycken inklusive bakre
+.« - Upprepa förfarandet med övriga Mellanstycken inklusive bakre
 Registerkåpa.
 
 <!-- source-page: 0056 -->
 
 EE .” .”
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Mellanstycken - Monteringsförfarande
 Steg 2) Montera Mellanstycke och Motorblock mot Tråg.
@@ -1189,25 +1291,27 @@ att flexa.
 
 <!-- source-page: 0057 -->
 
+est Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Mellanstycken - Monteringsförfarande
 Steg 3) Montera eftervarande enhet mot framförvarande.
-- — Efter rengöring av alla aktuella tätningsytor är det således dags
+. — Efter rengöring av alla aktuella tätningsytor är det således dags
 att Montera eftervarande enhet mot framförvarande. Motorsilikon
 typ: LocTite 5910 påstrykes och hanteras enligt tidigare.
-- Placera enheten så att den kan tryckas ner i hörnet mellan
+. Placera enheten så att den kan tryckas ner i hörnet mellan
 framförvarande Mellanstycke samt Tråg. Undvik att skjuta
 detaljerna för 18hga sträckor, enär motorsilikonet då kan tryckas
 undan med läckage som följd.
-- Finn ett lämpligt mindre cylindriskt brytspett vilket placeras i det
+. Finn ett lämpligt mindre cylindriskt brytspett vilket placeras i det
 bakre Z14mm styrpinnhålet. Pressa Blocket mot framförvarande
 Mellanstycke, så att styrpinnen kan placeras i det främre D14mm
 styrpinnhålet.
 så att Motorblockets främre
 tätningsyta samt tätningsytan på framförvarande Mellanstycke
 hela tiden hålles parallellt.
-- Montera den bakre 214mm styrpinnen.
-- Drag de skruvar som hålla Mellanstycket mot bakomvarande
+. Montera den bakre 214mm styrpinnen.
+« Drag de skruvar som hålla Mellanstycket mot bakomvarande
 Motorblock. När det gäller Registerkåpan drages istället den
 efterföljande Transmissionsplåten enligt samma princip som
 tidigare.
@@ -1216,6 +1320,7 @@ tidigare.
 <!-- source-page: 0058 -->
 
 a Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Steg 4) Montera Vridsäkringsplåtar
 Mellanstycken 1 - 3:
@@ -1226,37 +1331,43 @@ För Registerkåpa:
 För bakre Registerkåpa gäller att montera 2st skruv enl bild. Drag till fullt
 moment. Använd LocTite medel.
 Skruvar, Vridsäkringsplåtar - Åtdragningsmoment
-- M8 2,7kpm
-- M10 5,3kpm
+. M8 2,7kpm
+. M10 5,3kpm
 58
 
 <!-- source-page: 0059 -->
 
+» Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.7.8 Skruv mellan Block och Tråg
 Specifikation beträffande de skruvar som fästa Block mot Tråg
 Skruvar - Dimension
-- Genom Z14-Styrpinnar M6 x 40x 8.8 4st
-- Höger samt Vänster sida M6 x 20 8.8 16st
-- Höger sida M8 x 30 8.8 16st
-- Vänster sida M8 x 25 8.8 16st
-- Front vid Kamdrevkåpa UNC 5/16 x 50 8.8 2st
-- Front vid Motorblock UNC 5/16 x 50 8.8 1st
+« Genom Z14-Styrpinnar M6 x 40x 8.8 4st
+. Höger samt Vänster sida M6 x 20 8.8 16st
+. Höger sida M8 x 30 8.8 16st
+. Vänster sida M8 x 25 8.8 16st
+e Front vid Kamdrevkåpa UNC 5/16 x 50 8.8 2st
+. Front vid Motorblock UNC 5/16 x 50 8.8 1st
 5.7.9 Skruvar - Åtdragningsmoment
-- M6 Höger samt Vänster sida 1 kpm LocTite - Medel
-- M8 Höger samt Vänster sida 2,4 kpm LocTite - Medel
-- UNC 5/16” Mot främre Transmissionskåpa 1,6 kpm LocTite - Medel
-- UNC 5/16” Mot Motorblock Fram - Höger 2,2 kom LocTite - Medel
+. M6 Höger samt Vänster sida 1 kpm LocTite - Medel
+. M8 Höger samt Vänster sida 2,4 kpm LocTite - Medel
+« UNC 5/16” Mot främre Transmissionskåpa 1,6 kpm LocTite - Medel
+« UNC 5/16” Mot Motorblock Fram - Höger 2,2 kom LocTite - Medel
 59
 
 <!-- source-page: 0060 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 För egna anteckningar:
 60
 
 <!-- source-page: 0061 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.8 Ventilkåpa
 5.8.1 Ventilkåpa - Allmän Information
@@ -1284,6 +1395,8 @@ skruvats på plats med ett antal M3-skruvar.
 
 <!-- source-page: 0062 -->
 
+est Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.8.2 Ventilkåpa - Tillverkning, i Bilder
 I bilderna framgår den tillverkningsprocess som utförts för att få fram den
@@ -1294,6 +1407,7 @@ det i framtiden uppstår problem med t ex limningen av originalkåporna.
 <!-- source-page: 0063 -->
 
 ww Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.8.3 Ventilkåpa - Limning av originalkåpor
 Före limningen av originalkåporna har ett antal förberedande åtgärder
@@ -1323,6 +1437,8 @@ spänsten, för att få dem att hålla tills nästa ventiljustering.
 
 <!-- source-page: 0064 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.8.4 Ventilkåpa - Demontering och Montering
 För att montera av respektive på Ventilkåpan kan det vara till god hjälp om
@@ -1330,17 +1446,17 @@ man är två. Dels har Kåpan en relativt hög tyngd, dels är den tämligen hå
 styrd av såväl dess styrpinnar såsom de pinnskruvar som håller M12-
 Kupolmuttrarna.
 Demontering - Arbetsordning:
-- Lossa de Banjoskruvar som sitter i Vevhusventilationsrören. Var ytterst
+. Lossa de Banjoskruvar som sitter i Vevhusventilationsrören. Var ytterst
 försiktig eftersom skruvarna kan ha sotat fast. De är genomborrade på
 såväl längden som tvären vilket medför att de är lätta att dra sönder.
-- Lossa fästet för Övre Kylstam. Det är en slits mitt för det övre av
+. Lossa fästet för Övre Kylstam. Det är en slits mitt för det övre av
 hålen, vilket betyder att den övre skruven endast behöver lossas. Den
 nedre skruven måste däremot plockas bort helt.
-- Lossa de tio M12-Kupolmuttrarna. Lossa dem korsvis och lite åt
+. Lossa de tio M12-Kupolmuttrarna. Lossa dem korsvis och lite åt
 gangen.
-- Tag hjälp, eller Lyfthjälpanordning och lyft Kåpans båda halvor.
-- Gör rent Ventilkåpans insida.
-- Rengör även vevhusventilationspassagen. Demontera den Kalibrerade
+. Tag hjälp, eller Lyfthjälpanordning och lyft Kåpans båda halvor.
+. Gör rent Ventilkåpans insida.
+. Rengör även vevhusventilationspassagen. Demontera den Kalibrerade
 Nippel som sitter monterad i röret för att kunna rengöra på ett propert
 sätt.
 Fäste för Övre Kylstam.
@@ -1349,6 +1465,8 @@ Banjoskruv för Vevhusventilation.
 
 <!-- source-page: 0065 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Montering - Arbetsordning:
 Efter att Ventilkåpan rengjort på vederbörligt sätt och skall åter-
@@ -1372,6 +1490,8 @@ se avsnitt: Vevhusventilation XXX
 
 <!-- source-page: 0066 -->
 
+pos Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 I de fall motorn skall demonteras:
 Den gängade Bussning samt M10-skruv som sitter monterad längst bak på
@@ -1387,6 +1507,8 @@ Plats för egna anteckningar:
 
 <!-- source-page: 0067 -->
 
+s Söderström - HERKULES 1934
+MprMrsn Rak 16-Cylinder
 Motorns ingående delar
 5.9 Kylsystem
 5.9.1 Kylsystem - Allmän information
@@ -1408,25 +1530,27 @@ Historia: Scania LA82, kallad Myrslok. Svenska försvaret köpte 440stycken
 mellan 1960 - 62 som utrustades på olika sätt, tex brobyggnadsbil. Den
 hade drift på alla hjulen, sk 6x6.
 Vattenpump - Ingående detaljer:
-- Huvudtätning Seal Ring 0363143 LECAB AB
-- Lagertätning BA 19 40 10 Momentum AB
-- Lagertätning BASL 25 47 10 Momentum AB
-- Spårkullager 6204 B20/47x14 Momentum AB
-- Spårkullager 6205 D25/52x15 Momentum AB
-- Remskiva Enligt Volvo original på vevaxel /Utv. 1:1
-- Kilrem OO
+. Huvudtätning Seal Ring 0363143 LECAB AB
+. Lagertätning BA 19 40 10 Momentum AB
+. Lagertätning BASL 25 47 10 Momentum AB
+. Spårkullager 6204 B20/47x14 Momentum AB
+. Spårkullager 6205 D25/52x15 Momentum AB
+. Remskiva Enligt Volvo original på vevaxel /Utv. 1:1
+. Kilrem OO
 67
 
 <!-- source-page: 0068 -->
 
+est Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Vattenpump - Specifikation:
-- Anslutningsdimension: Inlopp, för slang 244
+. Anslutningsdimension: Inlopp, för slang 244
 Utlopp, för slang 244
 Inlopp från värmeslinga — 230
-- Fästskruv Dimension 2x M10
+. Fästskruv Dimension 2x M10
 C/C 115 mm
-- Pumphjul Diameter utv. 294 mm
+. Pumphjul Diameter utv. 294 mm
 Antal skovlar 6 st
 Area per skovel, ca 5,4 cm2
 17mm
@@ -1439,6 +1563,8 @@ Vattenpump
 
 lör
 UR
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.9.3 Kylare
 Kylare —- Allmän information
@@ -1448,9 +1574,9 @@ LA82 sk Myrslok. Inköpet har gjorts via Tradera från ett företag kallat LG-
 byggnation obegagnad.
 Se även information ”Vattenpump”
 Kylare —- Specifikation:
-- Dimension:
-- Kylarea, dimension
-- Konvektionsyta
+. Dimension:
+. Kylarea, dimension
+. Konvektionsyta
 Höjd exkl. anslutningar,
 Bredd
 Djup
@@ -1458,7 +1584,7 @@ Höjd,
 Bredd
 Djup
 Area
-- Vikt, ca: exkl anslutningar och påfyllningsrör
+. Vikt, ca: exkl anslutningar och påfyllningsrör
 69
 ca 815 mm
 630
@@ -1473,6 +1599,8 @@ ca 39 kg
 
 <!-- source-page: 0070 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.9.4 Kylslinga
 Kylslinga - Allmän information
@@ -1483,21 +1611,23 @@ I änden av D45mm Kylstammen sitter en Gjutjärnspropp. Avsikten med den
 är att lättare kunna rengöra Kylstammsröret vid behov. Bussningen den
 sitter i är limmad med LocTite 248.
 Kylslinga - Specifikation:
-- Kylvattenrör Avgasrör d45mm (utv) Biltema AB
+. Kylvattenrör Avgasrör d45mm (utv) Biltema AB
 Stålrör l32mm (utv)
-- Klämkoppling T-22x1/2"x22 866118 Biltema AB
+. Klämkoppling T-22x1/2"x22 866118 Biltema AB
 mfl.
-- Kylarslang 2044 x 315 61379 Biltema AB
-- Kylarslang 245 IS-35288 Swedol AB
-- Kylarslang 228 IS-35283 Swedol AB
-- -Värmeslang 219 52509 Biltema AB
-- -Slangklämma 252-55 —857510200055 ESSKA AB
-- -Slangklämma 236-39 857510200039 ESSKA AB
-- -Slangklämma 226-28 857510180028 ESSKA AB
+.  Kylarslang 2044 x 315 61379 Biltema AB
+.  Kylarslang 245 IS-35288 Swedol AB
+.  Kylarslang 228 IS-35283 Swedol AB
+. -Värmeslang 219 52509 Biltema AB
+. -Slangklämma 252-55 —857510200055 ESSKA AB
+. -Slangklämma 236-39 857510200039 ESSKA AB
+. -Slangklämma 226-28 857510180028 ESSKA AB
 70
 
 <!-- source-page: 0071 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.9.5 Thermostater
 Thermostater - Allmän information
@@ -1509,11 +1639,11 @@ varmare, på grund av den varma fartvinden. Detta problem försvinner enär
 vart Blocks Thermostat tillser att rätt mängd kylvätska passerar för att hålla
 en jämn temperatur.
 Thermostater —- Specifikation
-- Thermostat 273342-6 volvo
-- Typ Vax
-- Märkning 82eC
-- Börjar öppna vid 812 - 8B30C
-- Fullt öppen vid 900C
+. Thermostat 273342-6 volvo
+. Typ Vax
+. Märkning 82eC
+. Börjar öppna vid 812 - 8B30C
+. Fullt öppen vid 900C
 5.9.6 Temperatursensor
 Temperatursensor - Allmän information
 På grund av Herkules 1934s konstruktion med en Thermostat per
@@ -1521,13 +1651,15 @@ Cylinderlock, tarvas en Temperatursensor per dito. Instrumenteringen är
 från Volvo 940, 1995. Nedanstående sensor passar ett flertal Volvo-modeller
 mellan 1991 - 1998, bl a 740, 940, 960, S90, V90.
 Temperatursensor - Specifikation
-- Temperatursensor 4st 1362645 Volvo
+. Temperatursensor 4st 1362645 Volvo
 Gänga 5/8” - 18 UNF
-- Anslutningskontakt 4st 3523813 Volvo
+« Anslutningskontakt 4st 3523813 Volvo
 71
 
 <!-- source-page: 0072 -->
 
+pos Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.9.7 Thermostatbrygga
 Thermostatbrygga - Allmän information
@@ -1541,20 +1673,22 @@ Konvektor.
 Övre Kylstam
 Thermostatbrygga Anslutningsstos Hetvatten mot Konvektor
 Thermostatbrygga - Montage:
-- Kontrollera Thermostaternas gummipackningar beträffande torrsprickor
+. Kontrollera Thermostaternas gummipackningar beträffande torrsprickor
 eller andra skador.
-- I det fall när Värmeröret varit demonterat. Gänga in röret 11 varv efter
+. I det fall när Värmeröret varit demonterat. Gänga in röret 11 varv efter
 att första gängan gått i ingrepp. Bruka LocTite-Gängtätning under
 ingängningsförloppet. Lägg Thermostatbrygga med Värmerör mot sina
 montageytor, detta för att få inskruvningsvinken rätt. När LocTiten låst,
 lyft Thermostatbryggan för att kunna låsa Tätmuttern. Vira först rikligt
 med gängtejp och drag därefter fast Lås-/Tätmuttern.
-- — Lägg tillbaka Thermostatbryggan och placera alla skruvar i hålen på sina
+« — Lägg tillbaka Thermostatbryggan och placera alla skruvar i hålen på sina
 respektive platser. Fäst dem med några gängor.
 72
 
 <!-- source-page: 0073 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Drag den långa skruven vid Thermostathus A. Se till att vicka/skjuta
 röret i alla riktningar att skruven centreras mitt i hålet. Drag därefter
@@ -1565,6 +1699,7 @@ ordningen B, C, D.
 
 <!-- source-page: 0074 -->
 
+Söderström - HERKULES 1934
 Motorns ingående delar
 5.9.8 Expansionskärl
 Eftersom Herkules 1934 har en ansenlig längd, har det nödgats att förse
@@ -1576,6 +1711,8 @@ KIKKKKKKKKKKKKKKKKK
 <!-- source-page: 0075 -->
 
 ll
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.10 Kylvätska - Byte, Kontroll
 5.10.1 Kylvätska - Allmän information
@@ -1589,12 +1726,16 @@ Inte klar med det än...
 
 <!-- source-page: 0076 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 För egna anteckningar:
 76
 
 <!-- source-page: 0077 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.11 Smörjsystem
 5.11.1 Smörjsystem - Allmän information
@@ -1627,6 +1768,8 @@ Anm: Se även bild sidan XXXX
 
 <!-- source-page: 0078 -->
 
+s Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 - Returoljefilter: Från Kollektorn passerar oljan vidare genom tråg-
 väggen in i hållaren för Returoljefilter. Dessa filter är två stycken till
@@ -1636,8 +1779,8 @@ Filtren är av lasbilstyp, med fin reningsgrad. Dessa har på mantelytan
 kompletterats med kraftiga magneter, sk FilterMag för ansamlande av
 såväl grovt som fint metallspån. Vid filterbyte flyttas magneterna till de
 nya filtren, varvid metallspånen ligger kvar i de filter som slänges.
-- Oljekylare: En Oljekylare av koppar kyler oljan, dock endast marginellt.
-- Avluftningscentrifug: I en cylindrisk kammare tillverkad av en gasol-
+« Oljekylare: En Oljekylare av koppar kyler oljan, dock endast marginellt.
+« Avluftningscentrifug: I en cylindrisk kammare tillverkad av en gasol-
 tub av äldre modell, sker avluftning av oljan från Returpumparna.
 Returoljan slungas av centrifugalkraften runt mot väggen i en cylindriskt
 formad del av tanken efter att den spolats in i tangentens riktning. På
@@ -1652,7 +1795,7 @@ som ett vattenfall i miniatyr. Därefter rinner oljan vidare längs tankens
 botten mot utloppet, allt för att få ut så mycket luft som möjligt ur oljan.
 Luften ansamlas t toppen av tanken och sugs därifrån in i Luftrenaren för
 att sedermera deltaga i förbränningen.
-- Förbindningsrör: Detta är ett rör vars främsta uppgift är att leda oljan
+« Förbindningsrör: Detta är ett rör vars främsta uppgift är att leda oljan
 från motorns Avluftningstank vidare till dess Sugtank. Förbindningsöret
 är tillverkat av D45mm avgasrörsdelar, allt för att tillfredställa ett så
 stort, men även lugnt flöde av oljan som möjligt. I Förbindningsörets
@@ -1663,6 +1806,8 @@ Anm: Se även bild sidan XXXX
 <!-- source-page: 0079 -->
 
 a .” .”
+s Söderström - HERKULES 1934
+MprMrsn Rak 16-Cylinder
 Motorns ingående delar
 10.
 11.
@@ -1702,6 +1847,8 @@ Anm: Se även bild sidan XXXX
 
 <!-- source-page: 0080 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 17.
 18.
@@ -1714,7 +1861,7 @@ Ledningssystem för trycksmörjning kedjor: Via en separatledning
 kopplad direkt efter Tryckoljepumparna smörjs och kyls Kedjorna
 direkt med olja genom Kedjesträckarna. Detta sker genom att utnyttja
 Tryckoljepumparnas överkapacitet.
-- Denna ledning smörjer även
+. Denna ledning smörjer även
 den Kedjedrift som driver den ena av Tryckoljepumparna via en
 rörledning.
 Ledningssystem för tömning ell. utjämning av Trågets oljenivå:
@@ -1730,6 +1877,8 @@ Byte, Kontroll)
 <!-- source-page: 0081 -->
 
 ll
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Smörjsystem - Beskrivning, Översikt
 JIE
@@ -1742,6 +1891,8 @@ LJ /Å
 
 <!-- source-page: 0082 -->
 
+» Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Smörjsystem - Beskrivning, Översikt
 I = 15
@@ -1770,20 +1921,22 @@ SJ
 <!-- source-page: 0083 -->
 
 lf
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.3 Originalpump/Returoljepumpar under motorblock
 Original smörjoljepumparna begagnas för att pumpa olja från tråget till de
 separata oljetankarna.
 Oljepump - Specifikation
-- - Smörjoljepump, Typ
-- Kuggantal på varje hjul
-- Axialspel
-- Radialspel
-- Kuggflankspel
-- - Reduceringsventilens fjäder, Längd obelastad
-- Belastad 5 +/-0,4 kg
-- Belastad 7 +/-0,8 kg
-- Oljetryck enligt Volvos specifikation vid 2000 rpm
+ee - Smörjoljepump, Typ
+. Kuggantal på varje hjul
+. Axialspel
+. Radialspel
+. Kuggflankspel
+« - Reduceringsventilens fjäder, Längd obelastad
+. Belastad 5 +/-0,4 kg
+. Belastad 7 +/-0,8 kg
+e  Oljetryck enligt Volvos specifikation vid 2000 rpm
 83
 Kugghjul
 9
@@ -1798,7 +1951,9 @@ Kugghjul
 <!-- source-page: 0084 -->
 
 fört)
+Rak 16-Cylinder
 Motorns ingående delar
+Söderström - HERKULES 1934
 5.11.4 Returoljepumpar - Förfarande enligt Volvo
 Oljepump med reducerventil
 Sedan Pumpen tagits isär och = rengjorts
@@ -1829,6 +1984,8 @@ Hål för oljerör
 <!-- source-page: 0085 -->
 
 för of
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Förlängning av Oljepumpaxel - Kolonn
 Inte byggt än!
@@ -1837,34 +1994,40 @@ Inte byggt än!
 <!-- source-page: 0086 -->
 
 för. dd
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.5 Slangar, Slangnipplar och klämmor
-- Slang 213/20 L-671AA NBR Alfagomma/Swedol
-- -Slangnippel, 2Z3/8”x1/2” Mässing 254353 Biltema AB
-- Slangklämma,  S21mm/DIN3017 Fzb 857310150021 ESSKA AB
+. Slang 213/20 L-671AA NBR Alfagomma/Swedol
+« -Slangnippel, 2Z3/8”x1/2” Mässing 254353 Biltema AB
+. Slangklämma,  S21mm/DIN3017 Fzb 857310150021 ESSKA AB
 5.11.6 Rördelar
-- Kylvattenrör Avgasrör D45mm (utv) Biltema AB
+. Kylvattenrör Avgasrör D45mm (utv) Biltema AB
 Stålrör B22mm (utv) Anderssons Mekaniska AB
-- Klämkoppling T-22x15x22 866119 Biltema AB
+. Klämkoppling T-22x15x22 866119 Biltema AB
 T-22x22x22 866422 Biltema AB
 L-22x22
 86
 
 <!-- source-page: 0087 -->
 
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.7 Ventiler
 Skjutventiler - Vid returoljepumpar
 Benämns även Reglerventil. Ventil efter Returoljepumpar för reglering av
 sugmängd (luftiblandning) i det att oljan pumpas till Tank.
-- Spärrventil 3/8” 8701MUAS3800 Mässing ESSKA
+. - Spärrventil 3/8” 8701MUAS3800 Mässing ESSKA
 Skjutventiler - Vid Elektrisk förtryckspump
-- Kulventil 86 0083 Biltema
-- Kulventil 86 682 Biltema
+. - Kulventil 86 0083 Biltema
+. - Kulventil 86 682 Biltema
 87
 
 <!-- source-page: 0088 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.11.8 Backventil
 Efter Tryckpumpar samt vid den elektriska Förtryckspumpen är monterade
@@ -1873,8 +2036,8 @@ Backventiler för att tryckoljan ej skall ta bakvägen ur systemet och därvid
 som bottenventil i bevattningssystem och liknande. På bilden visas komplett
 ventil. För Herkules 1934 demonteras sugsilen som således icke brukas.
 Som tätning finnes i ventilen en O-ring, vilken kan bytas såsom reservdel.
-- Backventil/Bottenventil 1” Mässing 17270 Biltema AB
-- O-ring för do Z18,72 x 2,62 NBR Tools Momentum AB
+. Backventil/Bottenventil 1” Mässing 17270 Biltema AB
+e O-ring för do Z18,72 x 2,62 NBR Tools Momentum AB
 I bild visas en Backventil med sugsil. Den senare brukas ej för Herkules
 1934.
 Specialverktyg
@@ -1885,6 +2048,8 @@ tillverkats.
 <!-- source-page: 0089 -->
 
 fr oo
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.9 Kollektor samt hållare för Returoljefilter
 Kollektorn, en svetsad konstruktion monterad inne i Tråget för ansamlande
@@ -1902,6 +2067,8 @@ Slanganslutningar från respektive oljefack
 <!-- source-page: 0090 -->
 
 för
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.10 Oljekylare
 Oljekylaren är uppbyggd av ett antal cirkulära 21mm kopparplåtar, samt -
@@ -1911,6 +2078,8 @@ MER TEXT
 
 <!-- source-page: 0091 -->
 
+ee Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.11 Avluftningscentrifug
 MER TEXT
@@ -1918,6 +2087,8 @@ MER TEXT
 
 <!-- source-page: 0092 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.11.12 Avluftningsstank
 MER TEXT
@@ -1925,6 +2096,8 @@ MER TEXT
 
 <!-- source-page: 0093 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.11.13 Förbindningsrör
 MER TEXT
@@ -1933,6 +2106,7 @@ MER TEXT
 <!-- source-page: 0094 -->
 
 uu Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.14 Sugtank
 TBD
@@ -1942,6 +2116,8 @@ Not there yet!
 <!-- source-page: 0095 -->
 
 rf
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 5.11.15 Tryckpumpar - Allmän information
 Som Tryckpumpar brukas den typ av oljepump som har sitt ursprung i
@@ -1954,14 +2130,16 @@ Pumparna har inbyggda överströmningsventiler vilka begränsa oljetrycket.
 Den ena av de två pumparna är direktdriven, medan den andra är driven via
 en simplex kedjedrift.
 Oljepumpar - Specifikation
-- Pump M63HV (för Chrysler Big Block) Melling
-- Tryck när överströmningsventil öppnar 4,14 Bar /60PSI
-- Flöde XX Liter/min
-- Max varvtal pump enligt Melling: 3000 - 4000 varv/min (kamaxelvarv)
+. Pump M63HV (för Chrysler Big Block) Melling
+« Tryck när överströmningsventil öppnar 4,14 Bar /60PSI
+. Flöde XX Liter/min
+« Max varvtal pump enligt Melling: 3000 - 4000 varv/min (kamaxelvarv)
 95
 
 <!-- source-page: 0096 -->
 
+Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Tryckoljepumpar - Fördelningslåda
 Tryckoljepumpar - Borrade kanaler i monteringsplatta.
@@ -1973,24 +2151,28 @@ Tryckoljepumpar - Simplex kedjedrivning.
 <!-- source-page: 0097 -->
 
 fö dl
+Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 Tryckoljepumpar - Fördelningslåda
 För att åstadkomma drivning av två Pumpar från en Axel har byggts en
 Fördelningslåda bestående av simplex kedjedrift samt lager för att bära upp
 densamma.
 Fördelningslåda - Ingående detaljer:
-- Växelhus Svetsat stål Söderströms konstruktion
-- Fördelningblock Bearbetad aluminium <:Söderströms konstruktion
-- Kedjehjul Med nav CH10-3/8”-32 Translev
-- Kedjehjul Plan P-3/8”-32 Translev
-- Kedja Raklänk 3/8” Translev
-- Kedjelås Nitbart 3/8" Translev
-- Lager SKF Ö30/72 x 19 Tools Momentum
-- Spännelement  ETP 35/47 ETP-Transmission
+. Växelhus Svetsat stål Söderströms konstruktion
+. - Fördelningblock Bearbetad aluminium <:Söderströms konstruktion
+.  Kedjehjul Med nav CH10-3/8”-32 Translev
+.  Kedjehjul Plan P-3/8”-32 Translev
+. Kedja Raklänk 3/8” Translev
+.  Kedjelås Nitbart 3/8" Translev
+. Lager SKF Ö30/72 x 19 Tools Momentum
+« Spännelement  ETP 35/47 ETP-Transmission
 97
 
 <!-- source-page: 0098 -->
 
+po Söderström - HERKULES 1934
+MPR Rak 16-Cylinder
 Motorns ingående delar
 För egna anteckningar:
 98
@@ -1998,6 +2180,7 @@ För egna anteckningar:
 <!-- source-page: 0099 -->
 
 wu Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 5.12 Oljerenarcyklon
 5.12.1 Oljerenarcyklon - Historia
@@ -2036,6 +2219,7 @@ oljan ut till motorns smörjställen.
 <!-- source-page: 0100 -->
 
 Pet Söderström - HERKULES 1934
+Rak 16-Cylinder
 Motorns ingående delar
 Oljerenarcyklon - Beskrivning
 Centrifug-

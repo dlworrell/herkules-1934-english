@@ -5,10 +5,10 @@
       "slug": "Manual-HERKULES-2015-10-16-1",
       "cleaned_markdown": "source/swedish/pilot/Manual-HERKULES-2015-10-16-1.cleaned.md",
       "page_count": 100,
-      "suppressed_repeated_headers": 177,
-      "suppressed_embedded_page_furniture": 5,
-      "suppressed_stray_lines": 2,
-      "normalized_bullets": 233
+      "preserved_repeated_header_candidates": 177,
+      "preserved_embedded_page_furniture_candidates": 5,
+      "preserved_stray_line_candidates": 2,
+      "preserved_bullet_candidates": 233
     }
   ]
 }
