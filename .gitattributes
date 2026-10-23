@@ -1,0 +1,4 @@
+# GitHub language statistics (Linguist): build and pilot outputs are
+# generated, so they do not count toward the repository's languages.
+output/** linguist-generated
+reports/** linguist-generated
