@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -24,15 +25,13 @@ jobs:
         with:
           name: herkules-output
           path: output/
-      - name: Commit generated build output
+      - name: Propose generated build output as a verified pull request
+        # ADR-0006: no direct pushes to main; automation commits must be verified.
         if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output
-          if git diff --cached --quiet; then
-            echo "No build output changes to commit."
-          else
-            git commit -m "Update generated build output [skip ci]"
-            git push
-          fi
+          python3 .github/scripts/publish_signed_pr.py \
+            --branch automation/build-output \
+            --title "Update generated build output" \
+            output

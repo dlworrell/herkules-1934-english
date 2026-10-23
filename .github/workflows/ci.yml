@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   test:
@@ -49,15 +50,13 @@ jobs:
             reports/ocr
             source/swedish/pilot
 
-      - name: Commit EDT pilot outputs
+      - name: Propose EDT pilot outputs as a verified pull request
+        # ADR-0006: no direct pushes to main; automation commits must be verified.
         if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/pilot reports/pilot reports/ocr source/swedish/pilot
-          if git diff --cached --quiet; then
-            echo "No EDT pilot output changes to commit."
-          else
-            git commit -m "Update EDT pilot outputs [skip ci]"
-            git push
-          fi
+          python3 .github/scripts/publish_signed_pr.py \
+            --branch automation/edt-pilot \
+            --title "Update EDT pilot outputs" \
+            output/pilot reports/pilot reports/ocr source/swedish/pilot
