@@ -19,6 +19,6 @@ jobs:
       - name: Publish and verify exact reviewed tree
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          EXPECTED_PAYLOAD_SHA256: 09589d424689f74b52dba118c047684532c855e2770d9661e01e58b62d752779
+          EXPECTED_PAYLOAD_SHA256: 7368a7bf856914c1d365fe3ad5893b7dc39caf03ee5981a168526e1fb9be5acd
           EXPECTED_BOOTSTRAP_BRANCH: bootstrap/signing-hardening-20261025
         run: python3 .github/signing-repair/publish.py
