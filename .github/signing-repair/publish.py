@@ -58,12 +58,17 @@ for f in p["file_changes"].get("deletions",[]):
     if path.startswith("/") or ".." in path.split("/") or path in seen: raise RuntimeError("Unsafe deletion path")
     seen.add(path)
 changes={kind:[{k:v for k,v in item.items() if k!="blob_sha"} for item in items] for kind,items in p["file_changes"].items()}
-api("POST",f"/repos/{repo}/git/refs",{"ref":"refs/heads/"+p["branch"],"sha":p["base_sha"]})
+refs=api("GET",f"/repos/{repo}/git/matching-refs/heads/"+p["branch"])
+existing=next((x["object"]["sha"] for x in refs if x["ref"]=="refs/heads/"+p["branch"]),None)
+if existing is None:
+    api("POST",f"/repos/{repo}/git/refs",{"ref":"refs/heads/"+p["branch"],"sha":p["base_sha"]})
+elif existing!=p["base_sha"]:
+    raise RuntimeError("Repair branch changed; inspect before retrying")
 mutation="mutation($input:CreateCommitOnBranchInput!){createCommitOnBranch(input:$input){commit{oid url}}}"
 response=api("POST","/graphql",{"query":mutation,"variables":{"input":{
     "branch":{"repositoryNameWithOwner":repo,"branchName":p["branch"]},
     "expectedHeadOid":p["base_sha"],"message":p["message"],"fileChanges":changes}}})
-if response.get("errors"): raise RuntimeError("GraphQL commit creation failed")
+if response.get("errors"): raise RuntimeError("GraphQL commit creation failed: "+json.dumps([e.get("message") for e in response["errors"]]))
 commit=response["data"]["createCommitOnBranch"]["commit"]
 verified=verify(commit["oid"],p["tree_sha"])
 result={"repository":repo,"branch":p["branch"],"commit":commit["oid"],"tree":p["tree_sha"],
