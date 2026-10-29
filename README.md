@@ -61,3 +61,7 @@ make edt-html
 ```
 
 The existing build currently creates a placeholder output. The next step is replacing the placeholder with an EDT-backed pipeline that reads `edt/project.yml` and produces structured reports and publication outputs.
+
+## Releasing
+
+Changes move `dev-daily` → `fitment` → `main`, and a release is published only after the owner approves it. See [docs/RELEASING.md](docs/RELEASING.md).
