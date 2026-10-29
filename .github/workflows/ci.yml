@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - main
+      - dev-daily
+      - fitment
 
 permissions:
   contents: write
