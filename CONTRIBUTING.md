@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:1fa2a814-d5f4-4b61-b2b6-d16c5e6a8c03
+-->
+
 # Contributing
 
 Use one logical change per commit.

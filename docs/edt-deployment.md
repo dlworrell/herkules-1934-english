@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:d32269f3-8bcf-4485-960d-221976f64b31
+-->
+
 # EDT Deployment Plan
 
 This repository consumes Engineering Docs Toolkit as the reusable document engine. The HERKULES repository remains the canonical home for HERKULES-specific source material, translation work, glossary decisions, reports, and generated publication outputs.

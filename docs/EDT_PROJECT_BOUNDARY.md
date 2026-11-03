@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:1a2766c6-a74b-4037-aebf-7ea61024723d
+-->
+
 # EDT Project Boundary
 
 The HERKULES book repository is the originator project and the working directory for HERKULES activity.

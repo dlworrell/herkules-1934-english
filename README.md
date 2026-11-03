@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:c243d725-b10b-4b39-a632-5bebcbdca205
+-->
+
 # HERKULES 1934 English Technical Edition
 
 This repository contains the working English technical edition of Pelle Soderstrom's HERKULES 1934 workshop manual.
