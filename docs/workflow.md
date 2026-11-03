@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:be1623ad-b6e1-4d6a-8552-e6f1ea18df1d
+-->
+
 # Workflow
 
 1. Add Swedish source notes.

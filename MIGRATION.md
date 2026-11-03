@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: Donovan Worrell
+
+SPDX-License-Identifier: Apache-2.0
+Catalyst-File-ID: urn:uuid:c2c42746-0679-40b2-b74b-caa9f0b9414d
+-->
+
 # HERKULES EDT Migration Inventory
 
 This document tracks the migration from the original HERKULES repository layout into an EDT-driven project structure.
